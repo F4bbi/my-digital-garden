@@ -3,7 +3,7 @@
 ---
 
 # Appunti su Java
-## 1)
+## Appunto 1)
 > [!warning] IMPORTANTE
 > Un metodo statico non può accedere ai campi di istanza della stessa classe.
 ```java
@@ -17,7 +17,7 @@ public class B {
 ```
 
 ---
-## 2)
+## Appunto 2)
 > [!warning] IMPORTANTE
 Non si può fare il cast dall'istanza della superclasse ad una sua classe figlia.
 ```java
@@ -41,7 +41,7 @@ Koala koala = (Koala) animale; //<- Errore a runtime
 Questo **non** si può fare. È come fare Koala koala = new Animale().
 _Exception in thread "main": Animale cannot be cast to class Koala_
 
-## 3)
+## Appunto 3)
 > [!warning] IMPORTANTE
 Non può esserci più di una classe pubblica in uno stesso file.
 ```java
@@ -60,7 +60,7 @@ public class B extends A{  //<- Errore a compile time
     public String m() {}  
 }
 ```
-## 4)
+## Appunto 4)
 > [!info] Un po' di ereditarietà
 > Generalmente quando passo una classe ad una funzione, guardo se la super-classe contiene quel metodo con quella classe. Se sì a posto, altrimenti devo fare un up cast.
 > Eccezione: se passo una classe del tipo SuperC c = new SubC() viene sempre fatto un up-cast.
@@ -154,7 +154,7 @@ class E extends D { }
 ```
 **Output:** A constructor with D class
 
-## 5)
+## Appunto 5)
 > [!info] Costruttori
 > Generalmente quando inizializzo una sotto-classe, questa invoca automaticamente il costruttore di default della sua super-classe.
 > Il problema quindi si presenta quando la super-classe non ha il costruttore di default. 
