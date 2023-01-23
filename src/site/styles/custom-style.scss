@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 @font-face {
-    font-family: "Canela Text";
-    src: url("CanelaText-Regular-Trial.otf");
+    font-family: "NewComputerModern10";
+    src: url("NewCM10-Regular.otf");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -15,7 +15,7 @@ body {
    ***/
  
    .content {
-       font-family: "Canela Text";
+       font-family: 'NewComputerModern10';
    }
     
    --h1-color: #d04255;
