@@ -178,5 +178,7 @@ qexp(p, lambda) #integral from 0 to k = p
 ```
 
 **$\star$Integrali in R**
+```js
 integrand <- function(x) { exp(-x) }
 integrate(integrand, 0, +Inf)$value
+```
