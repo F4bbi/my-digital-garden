@@ -167,8 +167,8 @@ qnorm(p, mean = 0, sd = 1) #integral from 0 to k = p
 ```
 
 **$\star$Esponenziale**
-$$Exp(\lambda) = \lambda e^{{-\lambda x}} \quad x>0 $$
-$$F(x) = 1- e^{{-\lambda x}} \quad x\geq 0$$
+$$Exp(\lambda) = \lambda e^{-\lambda x} \quad x>0 $$
+$$F(x) = 1- e^{-\lambda x} \quad x\geq 0$$
 $$\mathbb{E}(X) = \frac 1 \lambda \quad Var(X) = \frac 1 {\lambda^2}$$
 In R:
 ```js
