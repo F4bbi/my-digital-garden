@@ -7,7 +7,7 @@ The stack data structure is simply a stack of data. It uses LIFO (last-in first-
 
 ## Stack implementation
 Unlike an array, a stack does not offer constant-time access to the ith item. However, it does allow constant time adds and removes, as it doesn't require shifting elements around.
-#### My Stack class implementation in c++
+#### My Stack class implementation in C++
 ##### Stack.h
 ```cpp
 #pragma once
