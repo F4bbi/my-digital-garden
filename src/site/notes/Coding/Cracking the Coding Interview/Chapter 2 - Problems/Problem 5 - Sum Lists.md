@@ -17,7 +17,7 @@ _Output:_ 9 - > 1 -> 2. That is, 912.
 		  
 ## Solution
 ### First part
-#### Iterative solution in c++
+#### Iterative solution in C++
 ```cpp
 template<typename T>
 class Node {
@@ -68,7 +68,7 @@ class ImprovedLinkedList : public LinkedList<T> {
 - **Time complexity:** $O(N)$ (where _N_ is the size of the list)
 - **Space complexity:** $O(1)$
 
-#### Recursive solution in c++
+#### Recursive solution in C++
 ```cpp
 template<typename T>
 class Node {
@@ -114,7 +114,7 @@ class ImprovedLinkedList : public LinkedList<T> {
 - **Space complexity:** $O(N)$
 
 ### Second part
-#### Recursive solution in c++
+#### Recursive solution in C++
 In this approach, we directly go at the end of the list so we can do the sum backwards. `carry` is passed by reference so it can change in every iteration.
 ```cpp
 template<typename T>
