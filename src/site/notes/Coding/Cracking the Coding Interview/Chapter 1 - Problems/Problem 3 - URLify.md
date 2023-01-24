@@ -11,7 +11,7 @@ length of the string.
 ## Solution
 We edit the string starting from the end and working backwards. This is useful because we have an extra buffer at the end, which allows us to change characters without worrying about what we're overwriting.
 
-#### Solution in c++
+#### Solution in C++
 ```cpp
 int getNumberSpaces(const std::string & string, int length) {
     int numberSpaces = 0;
