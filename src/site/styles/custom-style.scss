@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
 
 @font-face {
     font-family: 'NewComputerModern10';
@@ -16,9 +15,9 @@ body {
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
- 
+    
    .content {
-       font-family: 'Roboto Serif', serif;
+       font-family: 'NewComputerModern10';
    }
     
    --h1-color: #d04255;
