@@ -138,7 +138,7 @@ class ImprovedLinkedList : public LinkedList<T> {
 - **Time complexity:** $O(N)$ (where _N_ is the size of the list)
 - **Space complexity:** $O(N)$
 
-Actually, we can to this in Java too, wrapping the counter value with simple class (or even a single element array). In this way we can mimic passing by reference.
+Actually, we can do this in Java too, wrapping the counter value with simple class (or even a single element array). In this way we can mimic passing by reference.
 (The solution is simply replacing `int & index` with the below class).
 
 ```cpp
