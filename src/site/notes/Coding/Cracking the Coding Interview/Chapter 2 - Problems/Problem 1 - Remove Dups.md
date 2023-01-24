@@ -13,7 +13,7 @@ we discover a duplicate element, we remove the element and continue iterating.
 How do we remove the element? We keep a pointer in the node preceding the one we are checking and if we have to remove it, we will make the previous node point to the `current->next node`.
 (In the below solution i am using my own linked list, which you can find in [[Coding/Data Structures/Linked Lists\|Linked Lists]]).
 
-#### Solution in c++ using HashSet
+#### Solution in C++ using HashSet
 ```cpp
 template<typename T>
 class Node {
@@ -60,7 +60,7 @@ class ImprovedLinkedList : public LinkedList<T> {
 - **Time complexity:** $O(N)$ (where _N_ is the size of the list)
 - **Space complexity:** $O(N)$ (because of the set)
 
-#### Solution in c++ without data structures
+#### Solution in C++ without data structures
 We can avoid using the hash set, but the time complexity will be worse ($O(N^2)$), in fact we will have to check all the possible pairs of nodes. The tricky part here is that we do `j = j->next` only if the two compared values are different, because we have always to have a pointer to the previous node.
 
 **EXAMPLE:**
