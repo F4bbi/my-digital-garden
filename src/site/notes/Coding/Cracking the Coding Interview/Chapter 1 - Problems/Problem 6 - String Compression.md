@@ -9,7 +9,7 @@ Implement a method to perform basic string compression using the counts of repea
 ## Solution
 We iterate through the string, copying characters to a new string and counting the repeats. 
 At each iteration, check if the current character is the same as the next character. If not, add its compressed version to the result.
-#### Solution in c++ 
+#### Solution in C++ 
 ```cpp
 std::string stringCompression(std::string string) {
     std::string compressedString = "";
