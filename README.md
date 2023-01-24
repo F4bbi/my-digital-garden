@@ -1,9 +1,5 @@
-# Digital Obsidian Garden
-This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden). 
-See the README in the plugin repo for information on how to set it up.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oleeskild/digitalgarden)
-
----
-## Custom Styling
-I encourage you to change the default styling to make the site your own. Please modify the custom-style.scss when doing so to avoid future conflict when updating the template.
+# Fabbi's Digital Garden
+This is the source code for fabio-missagia.netlify.app, a digital garden filled with growing notes, essays, and eventual projects in mind.
+**But what is a digital garden?**
+As i said, a digital garden is a collection of imperfect notes, essays, and ideas growing slowly over time. 
+Unlike a blog, a garden is a collection of ideas that aren't strictly organised by their publication date. Here you will find all my notes written in Obsidian during my journey on computer science about data structures, algorithms, probability and statistics and more.  

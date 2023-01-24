@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 @font-face {
-    font-family: "NewComputerModern10";
+    font-family: NewComputerModern10;
     src: url("NewCM10-Regular.otf");
     font-weight: 300;
     font-style: normal;
@@ -15,7 +15,7 @@ body {
    ***/
  
    .content {
-       font-family: 'NewComputerModern10';
+       font-family: NewComputerModern10;
    }
     
    --h1-color: #d04255;
