@@ -16,7 +16,7 @@ We assume the string contains lowercase characters (others will be discarded).
 We don't have to check the palindrome property on every permutation!
 To be a permutation of a palindrome, a string can't have more than one character that is odd (the middle one).
 
-#### Solution in c++ with array
+#### Solution in C++ with array
 We simply count the frequency of each character and after we check that the string has no more than one character that is odd.
 ```cpp
 int getIndex(char c)
@@ -53,7 +53,7 @@ bool palindromePermutation(std::string string) {
 - **Time complexity:** $O(N)$ (one pass over the `string`, one pass for the `frequency table`)
 - **Space complexity:** $O(1)$ (`frequencyTable` will always have 26 elements)
 
-#### Solution in c++ with array with small optimization
+#### Solution in C++ with array with small optimization
 We don't have to wait the end of the word to count the odd numbers, we can keep track of them while we read the string. (This is not necessarily more optimal, we have eliminated a final iteration through the array, but now we have to run a few extra lines of code for each character in the string)
 ```cpp
 int getIndex(char c)
@@ -79,7 +79,7 @@ bool palindromePermutation(std::string string) {
 - **Time complexity:** $O(N)$ (one pass over the `string`)
 - **Space complexity:** $O(1)$ (`frequencyTable` will always have 26 elements)
 
-#### Solution in c++ without data structures
+#### Solution in C++ without data structures
 Since we just have to know if the string has either 0 or 1 character that is odd, we can use use a single integer (as a bit vector), where we map a letter to an integer between 0 and 26 (similarly to [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 1 - IsUnique#Solution in c without data structures\|Problem 1 - IsUnique]]). 
 If the frequency of the character is even, the corresponding bit will be 0, if odd it'll be 1.
 
