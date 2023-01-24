@@ -9,7 +9,7 @@ Given a smaller string `s1` and a bigger string `s2`, design an algorithm to fin
 ## Solution
 The assumptions are the same of [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 2.1 - Check Permutation\|Problem 2.1 - Check Permutation]].
 
-#### Solution in c++ with array
+#### Solution in C++ with array
 This problem is similar to [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 2.1 - Check Permutation\|Problem 2.1 - Check Permutation]], but here we have to find all the permutation occurences. To do that, we start sliding the window `[0..len(s1)]` over `s2`. Every time a letter gets out of the window, we decrease the corresponding counter in the array and when a letter gets in the window, we increase it. Now we just have to compare `s1` with the `sliding window`.
 ```cpp
 std::vector<int> checkPermutation(std::string s1, std::string s2) {
