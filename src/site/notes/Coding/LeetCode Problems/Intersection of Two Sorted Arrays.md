@@ -17,7 +17,7 @@ Start with each element in A and search for it in B.
 - Time complexity: $O(N^2)$
 - Space complexity: $O(N)$
 
-#### Solution in c++
+#### Solution in C++
 ```cpp
 vector<int> intersect(vector<int> A, vector<int> B){
     vector<int> result;
@@ -43,7 +43,7 @@ In this case, we can just throw everything in B into a [[Coding/Data Structures/
 At this point we **can't** do better in terms of [[Coding/Cracking the Coding Interview/Concepts/1. Big O#⏱️ Time complexity\|runtime]], but we can optimize the [[Coding/Cracking the Coding Interview/Concepts/1. Big O#💾 Space Complexity\|space complexity]].
 In fact, we would have achieved the exact same runtime if the data wasn't sorted.
 
-#### Solution in c++
+#### Solution in C++
 ```cpp
 vector<int> intersect(vector<int>& A, vector<int>& B){
     vector<int> result;
@@ -66,7 +66,7 @@ vector<int> intersect(vector<int>& A, vector<int>& B){
 
 Since the two arrays are sorted, we just do linear search but we start where the last one left off.
 
-#### Solution in c++
+#### Solution in C++
 ```cpp
 vector<int> intersect(vector<int>& A, vector<int>& B){
     vector<int> result;
@@ -80,30 +80,5 @@ vector<int> intersect(vector<int>& A, vector<int>& B){
         }
     }       
     return result;
-}
-```
-
-### Full code example
-
-```cpp
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-
-using namespace std;
-
-void print(vector<int> array) {
-    for(int i = 0; i < array.size(); i++)
-        cout << array[i] << " ";
-    cout << endl;
-} 
-
-int main()
-{
-    vector<int> A = {13, 27, 35, 40, 49, 55, 59};
-    vector<int> B = {17, 35, 39, 40, 55, 58, 60};
-    vector<int> intersection = intersect(A,B);
-    print(intersection);
-    return 0;
 }
 ```
