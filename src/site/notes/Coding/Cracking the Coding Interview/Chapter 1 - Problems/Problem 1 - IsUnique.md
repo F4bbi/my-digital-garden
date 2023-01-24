@@ -12,7 +12,7 @@ First we have to decide if the string is an ASCII string or a Unicode string. We
 > In C++, if you want to include extended ASCII strings or Unicode strings as well, simply increasing the storage size won't be enough. Remember that `char` in C++ ranges up to 127, so if you want to use extended ASCII strings you will have to use `unsigned char`, which goes from 0 - 255. Anyway, keep in mind that interpreting "higher" ASCII character values depends on your terminal, so it's possible you will see strange simbols if you try to print them. 
 > This doesn't apply to Java, for example, where the `char` data type is a single 16-bit Unicode character[^1].
 
-#### Solution in c++ with array
+#### Solution in C++ with array
 One solution is to create an array of boolean values, where the flag at index $i$ indicates whether character $i$ in the alphabet is contained in the string. The second time you see this character you can immediately return false.
 ```cpp
 bool isUnique(std::string string) {  
@@ -30,7 +30,7 @@ bool isUnique(std::string string) {
 - **Time complexity:** $O(N)$ (although it will be $O(1)$ on average)
 - **Space complexity:** $O(1)$ (`char_set` will always have 128 elements)
 
-#### Solution in c++ without data structures
+#### Solution in C++ without data structures
 We can reduce our space using an integer as a bit vector. However, the string will have to contain only 32 different characters, in our case the lowercase letters a through z.
 
 ```cpp
