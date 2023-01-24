@@ -10,7 +10,7 @@ Here you will find my notes about the concepts explained in the book (for chapte
 | --- | -------------------------------------------------------------------------- | --- |
 |     | [[Coding/Cracking the Coding Interview/Concepts/1.1 Big O\|1.1 Big O Time & Space]]                                      |     |
 |     | [[Coding/Cracking the Coding Interview/Concepts/1.2 How to Prepare\|1.2 How to Prepare]]                                                     |     |
-|     | [[Coding/Cracking the Coding Interview/Concepts/1.3 Optimize & Solve Technique\|1.3 Optimize & Solve Technique]]                                        |     |
+|     | [[Coding/Cracking the Coding Interview/Concepts/1.3 Optimize & Solve Technique\|1.3 Optimize & Solve Technique]]         |     |
 |     | [[Coding/Cracking the Coding Interview/Concepts/1.3.1. Best Conceivable Runtime (BCR)\|1.3.1. Best Conceivable Runtime (BCR)]]                                  |     |
 |     | [[Coding/Data Structures/Hash Tables\|2.1 Hash Tables]]                                           |     |
 |     | [[Coding/Data Structures/Linked Lists\|2.2 Linked Lists]]                                         |     |
