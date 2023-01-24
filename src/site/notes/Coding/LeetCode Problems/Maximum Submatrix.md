@@ -9,7 +9,7 @@ Given an integer matrix, find the contiguous submatrix (containing at least one 
 ## Solution
 ### Brute Force Algorithm
 You can see a good explanation [here](https://youtu.be/-FgseNO-6Gk?t=98)
-#### Solution in c++
+#### Solution in C++
 ```cpp
 int maximumSubmatrix(const vector<vector <int> > & matrix, const int N, const int M) {
     int maxSoFar = matrix[0][0], sum;
@@ -39,7 +39,7 @@ int maximumSubmatrix(const vector<vector <int> > & matrix, const int N, const in
 ### Optimal Algorithm
 You can see a good explanation [here](https://youtu.be/-FgseNO-6Gk?t=583)
 To understand this algorithm you should see [[Coding/LeetCode Problems/Maximum Subarray\|Maximum Subarray]] first.
-#### Solution in c++ 
+#### Solution in C++ 
 ```cpp
 int maximumSubmatrix(const vector<vector <int> > & matrix, const int N, const int M) {
     vector<int> auxArray (N, 0);
