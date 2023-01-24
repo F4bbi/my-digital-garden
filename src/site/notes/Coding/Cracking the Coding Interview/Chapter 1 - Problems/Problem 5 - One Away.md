@@ -16,7 +16,7 @@ _Output_: false
 ## Solution
 We can discern insertion, removal and replacement edits based on the lengths of the strings.
 We have to check that no more that one character is different between the two strings.
-#### Solution in c++ 
+#### Solution in C++ 
 We may merge `characterReplaced` and `characterRemoved` into one method since it would be more compact and without duplicated code but i prefer this approach, as it is clearer and easier to follow.
 ```cpp
 bool characterReplaced(std::string s1, std::string s2) {
