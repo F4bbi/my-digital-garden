@@ -40,7 +40,7 @@ In this case, we can just throw everything in B into a [[Coding/Data Structures/
 - Time complexity: $O(N)$
 - Space complexity: $O(N)$
 
-At this point we **can't** do better in terms of [[Coding/Cracking the Coding Interview/Concepts/1. Big O#⏱️ Time complexity\|runtime]], but we can optimize the [[Coding/Cracking the Coding Interview/Concepts/1. Big O#💾 Space Complexity\|space complexity]].
+At this point we **can't** do better in terms of [[Coding/Cracking the Coding Interview/Concepts/1.1 Big O#⏱️ Time complexity\|runtime]], but we can optimize the [[Coding/Cracking the Coding Interview/Concepts/1.1 Big O#💾 Space Complexity\|space complexity]].
 In fact, we would have achieved the exact same runtime if the data wasn't sorted.
 
 #### Solution in C++
