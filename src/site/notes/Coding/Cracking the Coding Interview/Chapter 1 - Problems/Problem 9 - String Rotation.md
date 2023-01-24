@@ -14,7 +14,7 @@ _s1:_ "waterbottle"
 _s2:_ "erbottlewat"
 _s1 + s1:_ "waterbottlewaterbottle"
 ✅"erbottlewat" found! It starts at position 3.
-#### Solution in c++ using two arrays
+#### Solution in C++ using two arrays
 ```cpp
 bool isSubstring(std::string s1, std::string s2) {
     if((s1.length() != s2.length()) || s1.length() == 0)
