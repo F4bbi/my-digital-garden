@@ -24,5 +24,14 @@ $$\sum_{k=2}^{n} \frac {1}{k(k+1)} = \frac {n-1}{2n+2} \ \ \text{per qualche } n
 Dobbiamo provare che vale la stessa uguaglianza con $n+1$ al posto di $n$, ovvero
 $$\sum_{k=2}^{n+1} \frac {1}{k(k+1)} = \frac {(n+1)-1}{2(n+1)+2} \ \text{(TESI DEL PASSO INDUTTIVO)}$$
 
-Vale:$$\sum_{k=2}^{n+1} \frac {1}{k(k+1)} = \frac {(n+1)-1}{2(n+1)+2} \huge\Longleftrightarrow$$$$\underline{\sum_{k=2}^{n} \frac {1}{k(k+1)}} + \frac {1}{(n+1)((n+1)+1)} = \frac {n}{2n+4}$$$$\huge {\Updownarrow} \ \normalsize\text{(ipotesi induttiva)}$$$$\underline{\frac {n-1}{2n+2}} \ + \ \frac {1}{(n+1)(n+2)} = \frac {n}{2n+4}$$$$\frac{(n+2)(n-1)+2}{2(n+1)(n+2)} = \frac {n}{2n+4}$$$$\frac{n^2-n+2n-2+2}{\cancel2(n+1)\cancel{(n+2)}} = \frac {n}{\cancel{2(n+2)}}$$$$\huge {\Updownarrow} \ \ \normalsize\text{Moltiplico a destra e a sinistra per } (n+1)$$$$n^2-n+2n\cancel{-2}\cancel{+2} = n(n+1)$$$$n^2+n = n^2+n$$Dunque il passo induttivo è verificato.
+Vale:
+$$\sum_{k=2}^{n+1} \frac {1}{k(k+1)} = \frac {(n+1)-1}{2(n+1)+2} \huge\Longleftrightarrow$$
+$$\underline{\sum_{k=2}^{n} \frac {1}{k(k+1)}} + \frac {1}{(n+1)((n+1)+1)} = \frac {n}{2n+4}$$
+$$\huge {\Updownarrow} \ \normalsize\text{(ipotesi induttiva)}$$
+$$\underline{\frac {n-1}{2n+2}} \ + \ \frac {1}{(n+1)(n+2)} = \frac {n}{2n+4}$$
+$$\frac{(n+2)(n-1)+2}{2(n+1)(n+2)} = \frac {n}{2n+4}$$
+$$\frac{n^2-n+2n-2+2}{\cancel2(n+1)\cancel{(n+2)}} = \frac {n}{\cancel{2(n+2)}}$$
+$$\huge {\Updownarrow} \ \ \normalsize\text{Moltiplico a destra e a sinistra per } (n+1)$$
+$$n^2-n+2n\cancel{-2}\cancel{+2} = n(n+1)$$
+$$n^2+n = n^2+n$$Dunque il passo induttivo è verificato.
 Grazie al passo induttivo $P(n)$ è vera $\forall n \geq 2$
