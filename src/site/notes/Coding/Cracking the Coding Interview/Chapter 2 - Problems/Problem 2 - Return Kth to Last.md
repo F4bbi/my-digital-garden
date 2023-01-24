@@ -9,7 +9,7 @@ Implement an algorithm to find the kth starting from the last element of a singl
 ## Solution
 In the following implementations, `k=0` corresponds to the last element of the list.
 
-#### Obvious solution in c++
+#### Obvious solution in C++
 (You can find the `get` function in [[Coding/Data Structures/Linked Lists#LinkedList cpp\|Linked Lists#LinkedList cpp]])
 ```cpp
 template<typename T>
@@ -43,7 +43,7 @@ class ImprovedLinkedList : public LinkedList<T> {
 - **Time complexity:** $O(N)$ (where _N_ is the size of the list)
 - **Space complexity:** $O(1)$
 
-#### Recursive solution in c++ (in reality java)
+#### Recursive solution in C++ (in reality java)
 If we used Java instead of C++, we could not pass back a node and a counter using normal return statements. 
 One way to resolve this is to change the problem to simply printing the kth to last element. Then, we can pass
 back the value of the counter simply through return values.
@@ -89,7 +89,7 @@ class ImprovedLinkedList : public LinkedList<T> {
 - **Time complexity:** $O(N)$ (where _N_ is the size of the list)
 - **Space complexity:** $O(N)$ (because of recursion)
 
-#### Recursive solution in c++ passing values by reference
+#### Recursive solution in C++ passing values by reference
 We are using C++ so we can pass values by reference. This allows us to return the node value, but also update the counter by passing a pointer to it.
 ```cpp
 template<typename T>
@@ -147,7 +147,7 @@ class Index {
 }
 ```
 
-#### Iterative solution in c++
+#### Iterative solution in C++
 We place a pointer to the first element in the list and one to the Kth element. Then we slide them simultaneously across the list, until the second pointer will point to the last element. Magically, the first pointer will now point to the element at position `length - 1 - k`.
 ```cpp
 template<typename T>
