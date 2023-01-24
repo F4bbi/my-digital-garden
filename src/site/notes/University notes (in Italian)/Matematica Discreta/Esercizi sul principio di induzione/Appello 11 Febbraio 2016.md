@@ -9,7 +9,8 @@ $$\sum_{k=1}^{n} \frac{k}{2^k} = 2 - \frac{n+2}{2^n} \ \ \ \forall n \geq 1$$
 Procediamo per induzione su $n \geq 1$
 $n = 1$ (*BASE DELL'INDUZIONE*) 
 Dobbiamo provare che 
-$$\sum_{k=1}^{n} \frac{k}{2^k} = 2 - \frac{1+2}{2^1}$$Vale:
+$$\sum_{k=1}^{n} \frac{k}{2^k} = 2 - \frac{1+2}{2^1}$$
+Vale:
 -  $\Large{\sum_{k=1}^{1} \frac{1}{2^1} = \frac{1}{2}}$
 
 - $\large{2 - \frac{1+2}{2^1} = 2 - \frac 3 2 = \frac {4-3}2 = \frac 1 2}$
@@ -43,5 +44,6 @@ $$\huge {\Updownarrow} \ \ \normalsize\text{Moltiplico a destra e a sinistra per
 $$\frac{n+2}{2^n} - \frac{n+1}{2^{n+1}} =\frac{(n+1)+2}{2^{n+1}}$$
 $$\huge {\Updownarrow} \ \ \normalsize\text{Moltiplico a destra e a sinistra per } 2^{n+1}$$
 $$2(n+2) - n - 1 = n+3$$
-$$n+3=n+3$$Dunque il passo induttivo è verificato.
+$$n+3=n+3$$
+Dunque il passo induttivo è verificato.
 Grazie al passo induttivo $P(n)$ è vera $\forall n \geq 1$
