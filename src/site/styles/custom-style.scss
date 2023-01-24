@@ -10,6 +10,12 @@ body {
     .content {
         font-family: 'Roboto Serif', serif;
     }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     --h1-color: #d04255;
     --h2-color: #d5763f;
