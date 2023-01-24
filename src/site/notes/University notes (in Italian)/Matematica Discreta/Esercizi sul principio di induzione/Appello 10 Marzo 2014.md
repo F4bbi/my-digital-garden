@@ -27,5 +27,9 @@ Vale:
 $$\sum_{k=1}^{n+1} 6k^2 = (n+1)((n+1)+1)(2(n+1)+1)$$
 $$\underline{(\sum_{k=1}^{n} 6k^2)}\ + 6(n+1)^2 = (n+1)((n+1)+1)(2(n+1)+1$$
 $$\huge {\Updownarrow} \ \normalsize\text{(ipotesi induttiva)}$$
-$$\underline{n(n+1)(2n+1)} \ + \ 6(n+1)^2 = (n+1)((n+1)+1)(2(n+1)+1)$$$$(n+1)[n(2n+1)+6(n+1)] = (n+1)(n+2)(2n+3)$$$$\cancel{(n+1)}(2n^2+n+6n+6) = \cancel{(n+1)}(2n^2+3n+4n+6)$$$$(2n^2+7n+6) = (2n^2+7n+6)$$Dunque il passo induttivo è verificato.
+$$\underline{n(n+1)(2n+1)} \ + \ 6(n+1)^2 = (n+1)((n+1)+1)(2(n+1)+1)$$
+$$(n+1)[n(2n+1)+6(n+1)] = (n+1)(n+2)(2n+3)$$
+$$\cancel{(n+1)}(2n^2+n+6n+6) = \cancel{(n+1)}(2n^2+3n+4n+6)$$
+$$(2n^2+7n+6) = (2n^2+7n+6)$$
+Dunque il passo induttivo è verificato.
 Grazie al passo induttivo $P(n)$ è vera $\forall n \geq 2$
