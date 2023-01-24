@@ -18,7 +18,7 @@ We start from the outermost layer and working our way inwards.
 
 <iframe src = "https://www.youtube.com/embed/Jtu6dJ0Cb94"></iframe>
 
-#### Solution in c++ 
+#### Solution in C++ 
 ```cpp
 bool rotateMatrix(std::vector<std::vector<int>>& matrix) {
     if (matrix.size() != matrix.at(0).size()) return false;
