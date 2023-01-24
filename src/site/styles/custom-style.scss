@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
 
 @font-face {
     font-family: 'NewComputerModern10';
@@ -17,7 +18,7 @@ body {
    ***/
  
    .content {
-       font-family: 'NewComputerModern10';
+       font-family: 'Roboto Serif', serif;
    }
     
    --h1-color: #d04255;
