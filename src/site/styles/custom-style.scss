@@ -1,35 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-
-@font-face {
-    font-family: 'NewComputerModern10';
-    src: url("NewCM10-Regular.otf") format('otf'), 
-        url('NewCM10-Regular.woff2') format('woff2'),
-        url('NewCM10-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
 
 body {
     /***
-      ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
+        ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
+        IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
+    ***/
     
-   .content {
-       font-family: 'NewComputerModern10';
-   }
+    .content {
+        font-family: 'Roboto Serif', serif;
+    }
     
-   --h1-color: #d04255;
-   --h2-color: #d5763f;
-   --h3-color: #e5b567;
-   --h4-color: #a8c373;
-   --h5-color: #9e86c8;
-   --h6-color: inherit;
-   --h1-size: 2.1em;
-   --h2-size: 1.7em;
-   --h3-size: 1.5em;
-   --h4-size: 1.1em;
-   --h5-size: 1em;
-   --font-monospace: 'Fira Code';
+    --h1-color: #d04255;
+    --h2-color: #d5763f;
+    --h3-color: #e5b567;
+    --h4-color: #a8c373;
+    --h5-color: #9e86c8;
+    --h6-color: inherit;
+    --h1-size: 2.1em;
+    --h2-size: 1.7em;
+    --h3-size: 1.5em;
+    --h4-size: 1.1em;
+    --h5-size: 1em;
+    --font-monospace: 'Fira Code';
 }
