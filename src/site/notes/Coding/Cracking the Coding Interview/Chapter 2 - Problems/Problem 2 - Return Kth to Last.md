@@ -15,11 +15,11 @@ In the following implementations, `k=0` corresponds to the last element of the l
 template<typename T>
 class Node {
     public:
-        Node* next;
         T data;
-
-        Node();
-        Node(T value);
+        Node* next;
+        
+        Node() = default;
+        Node(const T& value) : data(value), next(NULL) {}
 };
 
 template<typename T>
@@ -27,13 +27,23 @@ class LinkedList {
     protected:
         Node<T>* head;
     public:
-	    LinkedList();
-        ~LinkedList();
-        Node<T>* get(int position);
+	    Node<T>* get(int position) const{
+		    if(position < 0)
+		        throw std::out_of_range("Out Of Range!");
+		    Node<T>* current = this->head;
+		    int i = 0;
+		    while(i < position && current != NULL) {
+		        current = current->next;
+		        ++i;
+		    }
+		    if(current == NULL)
+			    throw std::out_of_range("Out Of Range!");
+		    return current;
+		}
 };
 
 template<typename T>
-class ImprovedLinkedList : public LinkedList<T> {
+class Solution : public LinkedList<T> {
     public:
         T returnKthToLast(int k) {
             return this->get(this->length() - 1 - k)->data;
@@ -49,27 +59,7 @@ One way to resolve this is to change the problem to simply printing the kth to l
 back the value of the counter simply through return values.
 ```cpp
 template<typename T>
-class Node {
-    public:
-        Node* next;
-        T data;
-
-        Node();
-        Node(T value);
-};
-
-template<typename T>
-class LinkedList {
-    protected:
-        Node<T>* head;
-    public:
-	    LinkedList();
-        ~LinkedList();
-        Node<T>* get(int position);
-};
-
-template<typename T>
-class ImprovedLinkedList : public LinkedList<T> {
+class Solution : public LinkedList<T> {
     public:
         T returnKthToLast(int k) {
             return returnKthToLast_aux(k, this->head);
@@ -93,27 +83,7 @@ class ImprovedLinkedList : public LinkedList<T> {
 We are using C++ so we can pass values by reference. This allows us to return the node value, but also update the counter by passing a pointer to it.
 ```cpp
 template<typename T>
-class Node {
-    public:
-        Node* next;
-        T data;
-
-        Node();
-        Node(T value);
-};
-
-template<typename T>
-class LinkedList {
-    protected:
-        Node<T>* head;
-    public:
-	    LinkedList();
-        ~LinkedList();
-        Node<T>* get(int position);
-};
-
-template<typename T>
-class ImprovedLinkedList : public LinkedList<T> {
+class Solution : public LinkedList<T> {
     public:
         T returnKthToLast(int k) {
             int i = -1; //because I want that k = 0 means get the last element
@@ -123,14 +93,11 @@ class ImprovedLinkedList : public LinkedList<T> {
         T returnKthToLast_aux(int k, Node<T>* current, int & index) {
             if(current == NULL)
                 return NULL;
-
-            Node<T>* result = returnKthToLast_aux(k, current->next, index);
-            
+                
+            Node<T>* result = returnKthToLast_aux(k, current->next, index);       
             index++;
-
             if(index == k)
                 return current;
-
             return result;
         }
 };
@@ -151,30 +118,10 @@ class Index {
 We place a pointer to the first element in the list and one to the Kth element. Then we slide them simultaneously across the list, until the second pointer will point to the last element. Magically, the first pointer will now point to the element at position `length - 1 - k`.
 ```cpp
 template<typename T>
-class Node {
-    public:
-        Node* next;
-        T data;
-
-        Node();
-        Node(T value);
-};
-
-template<typename T>
-class LinkedList {
-    protected:
-        Node<T>* head;
-    public:
-	    LinkedList();
-        ~LinkedList();
-        Node<T>* get(int position);
-};
-
-template<typename T>
-class ImprovedLinkedList : public LinkedList<T> {
+class Solution : public LinkedList<T> {
     public:
         T returnKthToLast(int k) {
-            Node<T>* result = this->head;;
+            Node<T>* result = this->head;
             Node<T>* runner = this->get(k);
 
             while(runner->next != NULL) {
