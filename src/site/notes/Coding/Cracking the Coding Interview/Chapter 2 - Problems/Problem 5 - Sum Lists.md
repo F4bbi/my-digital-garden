@@ -22,27 +22,24 @@ _Output:_ 9 - > 1 -> 2. That is, 912.
 template<typename T>
 class Node {
     public:
-        Node* next;
         T data;
-
-        Node();
-        Node(T value);
+        Node* next;
+        
+        Node() = default;
+        Node(const T& value) : data(value), next(NULL) {}
 };
 
 template<typename T>
 class LinkedList {
     protected:
         Node<T>* head;
-    public:
-	    LinkedList();
-        ~LinkedList();
 };
 
 template<typename T>
-class ImprovedLinkedList : public LinkedList<T> {
+class Solution : public LinkedList<T> {
     public:
-        void sumLists_iterative(const ImprovedLinkedList<T>& l1, 
-						        const ImprovedLinkedList<T>& l2) {
+        void sumLists_iterative(const Solution<T>& l1, 
+						        const Solution<T>& l2) {
             int carry = 0;
             Node<T>* l1Head = l1.head;
             Node<T>* l2Head = l2.head;
@@ -73,26 +70,23 @@ class ImprovedLinkedList : public LinkedList<T> {
 template<typename T>
 class Node {
     public:
-        Node* next;
         T data;
-
-        Node();
-        Node(T value);
+        Node* next;
+        
+        Node() = default;
+        Node(const T& value) : data(value), next(NULL) {}
 };
 
 template<typename T>
 class LinkedList {
     protected:
         Node<T>* head;
-    public:
-	    LinkedList();
-        ~LinkedList();
 };
 
 template<typename T>
-class ImprovedLinkedList : public LinkedList<T> {
+class Solution : public LinkedList<T> {
     public:
-        void sumLists_recursive(const ImprovedLinkedList<T>& l1, const ImprovedLinkedList<T>& l2) {
+        void sumLists_recursive(const Solution<T>& l1, const Solution<T>& l2) {
             Node<T>* l1Head = l1.head;
             Node<T>* l2Head = l2.head;
             sumLists_recursive_aux(l1Head, l2Head, this->head, 0);
@@ -120,11 +114,11 @@ In this approach, we directly go at the end of the list so we can do the sum bac
 template<typename T>
 class Node {
     public:
-        Node* next;
         T data;
-
-        Node();
-        Node(T value);
+        Node* next;
+        
+        Node() = default;
+        Node(const T& value) : data(value), next(NULL) {}
 };
 
 template<typename T>
@@ -132,15 +126,17 @@ class LinkedList {
     protected:
         Node<T>* head;
     public:
-	    LinkedList();
-        ~LinkedList();
-        void insertFirst(T value);
+	    void insertFirst(T value) {
+		    Node<T>* newHead = new Node<T>(value);
+		    newHead->next = this->head;
+		    this->head = newHead;
+		}
 };
 
 template<typename T>
-class ImprovedLinkedList : public LinkedList<T> {
+class Solution : public LinkedList<T> {
     public:
-        void reversedSumLists(ImprovedLinkedList<T>& l1, ImprovedLinkedList<T>& l2) {
+        void reversedSumLists(Solution<T>& l1, Solution<T>& l2) {
             int carry = 0;
 
             if(l1.length() > l2.length())
@@ -154,7 +150,7 @@ class ImprovedLinkedList : public LinkedList<T> {
                 this->insertFirst(carry);
         }
     private:
-        void addZeros(ImprovedLinkedList<T>& list, int zeros) {
+        void addZeros(Solution<T>& list, int zeros) {
             for(int i = 0; i < zeros; i++) {
                 list.insertFirst(0);
             }
