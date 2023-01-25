@@ -14,9 +14,11 @@ In the below implementation, we have a `Linked List` class that wraps the `Node`
 In fact, if we accessed the linked list through a reference to the head `Node` of the linked list, we should be a bit careful. What if multiple objects need a reference to the linked list, and then the head of the linked list changes? Some objects might still be pointing to the old head.
 
 #### My Linked List class implementation in C++
+[Here](https://github.com/F4bbi/data-structures-implementation/tree/main/Linked%20List) you can find the repository on GitHub with the complete code.
 ##### Node.cpp
 ```cpp
 #pragma once
+
 template<typename T>
 class Node {
     public:
