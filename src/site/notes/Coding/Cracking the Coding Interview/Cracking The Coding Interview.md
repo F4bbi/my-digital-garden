@@ -5,7 +5,7 @@
 # Cracking The Coding Interview
 Cracking the Coding Interview is a book written by Gayle Laakmann McDowell, which is intended to help job seekers prepare for technical interviews at software companies. It also includes information on various topics such as big O notation, data structures and algorithms, and 189 programming interview questions, ranging from the basics to the trickiest algorithm problems.
 
-Here you will find my notes about the concepts explained in the book (for chapters) and my problem solutions.
+Here you will find my notes about the concepts explained in the book (for chapters) and my problem solutions in C++.
 
 |     | **Notes**                                                                  |     |
 | --- | -------------------------------------------------------------------------- | --- |
