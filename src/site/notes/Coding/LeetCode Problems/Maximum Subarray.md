@@ -27,8 +27,8 @@ int maxSubArray(vector<int>& nums){
     return maxSoFar;
 }
 ```
-- Time complexity: $O(N^2)$(where _N_ is the size of the vector)
-- Space complexity: $O(1)$
+- **Time complexity:** $O(N^2)$(where _N_ is the size of the vector)
+- **Space complexity:** $O(1)$
 
 ### Optimal Algorithm
 This algorithm is called "Kadane's Algorithm"
@@ -47,5 +47,5 @@ int maxSubArray(vector<int>& nums){
     return maxSoFar;
 }
 ```
-- Time complexity: $O(N)$(where _N_ is the size of the vector)
-- Space complexity: $O(1)$
+- **Time complexity:** $O(N)$(where _N_ is the size of the vector)
+- **Space complexity:** $O(1)$
