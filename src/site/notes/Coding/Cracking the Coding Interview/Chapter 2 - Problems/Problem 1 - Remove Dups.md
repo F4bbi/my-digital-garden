@@ -18,24 +18,21 @@ How do we remove the element? We keep a pointer in the node preceding the one we
 template<typename T>
 class Node {
     public:
-        Node* next;
         T data;
-
-        Node();
-        Node(T value);
+        Node* next;
+        
+        Node() = default;
+        Node(const T& value) : data(value), next(NULL) {}
 };
 
 template<typename T>
 class LinkedList {
     protected:
         Node<T>* head;
-    public:
-		LinkedList();
-        ~LinkedList();
 };
 
 template<typename T>
-class ImprovedLinkedList : public LinkedList<T> {
+class Solution : public LinkedList<T> {
     public:
         void removeDups() {
             std::unordered_set<int> set;
@@ -84,7 +81,7 @@ class LinkedList {
 };
 
 template<typename T>
-class ImprovedLinkedList : public LinkedList<T> {
+class Solution : public LinkedList<T> {
     public:
         void removeDups() {
             Node<T>* i, * j, * temp;
