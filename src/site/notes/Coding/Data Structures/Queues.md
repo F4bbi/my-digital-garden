@@ -8,37 +8,35 @@ A queue implements FIFO (first-in first-out) ordering. As in a line or queue at 
 ## Queue implementation
 In the below implementation, we have a `Queue` class that contains the `Node` class. 
 #### My Queue class implementation in C++
+[Here](https://github.com/F4bbi/data-structures-implementation/tree/main/Queue) you can find the repository on GitHub with the complete code.
 ##### Queue.h
 ```cpp
 #pragma once
 
-#include <iostream>
+#include <iostream> 
 
 /* Forward declaration of the template, so that operator<< is regognized as a template */
-template<typename T>
+template<class T>
 class Queue;
 
-template<typename T>
+template<class T>
 std::ostream& operator<< (std::ostream& out, const Queue<T>& queue);
 
-template<typename T>
+template<class T>    
 class Queue {
-    private:
-        template<typename U>
-        class Node {
-            public:
-                U data;
-                Node* next;
-                
-                // default constructor
-                Node() = default;
-
-                // constructor with data
-                Node(const U& value) : data(value), next(NULL) {}
-            };
+    class Node {
+        public:
+            T data;
+            Node* next;
+            
+            // default constructor
+            Node() = default;
+            // constructor with data
+            Node(const T& value) : data(value), next(NULL) {}
+    };
     protected:
-        Node<T>* first;
-        Node<T>* last;
+        Node* first;
+        Node* last;
     public:
         Queue() : first(NULL), last(NULL) {}
         Queue(const Queue& copyQueue);
@@ -58,28 +56,29 @@ class Queue {
 ##### Queue.cpp
 ```cpp
 #include <iostream>
+
 #include "Queue.h"
 
-template <typename T>
+template<class T>
 Queue<T>::Queue(const Queue& copyQueue) {
-    Node<T>* newFirst = this->first = new Node<T>();
+    Node* newFirst = this->first = new Node();
     
     for(auto tmp = copyQueue.first; tmp != NULL; tmp = tmp->next) {
-        newFirst->next = new Node<T>(tmp->data);
+        newFirst->next = new Node(tmp->data);
         newFirst = newFirst->next;
     }
 
-    Node<T>* tmp = this->first;
+    Node* tmp = this->first;
     this->first = this->first->next;
     delete tmp;
 }
 
-template <typename T>
+template<class T>
 Queue<T>::~Queue() {
     this->clear();
 }
 
-template <typename T>
+template<class T>
 void Queue<T>::initRandom(int size) {
     for(int i = 0; i < size; i++) {
             int random = rand() % 10;
@@ -87,20 +86,20 @@ void Queue<T>::initRandom(int size) {
     }
 }
 
-template <typename T>
+template<class T>
 T Queue<T>::remove() {
     if(isEmpty())
         throw std::invalid_argument("The queue is empty!");
-    Node<T> *temp = this->first;
+    Node *temp = this->first;
     this->first = this->first->next;
     int data = temp->data;
     delete temp;
     return data;
 }
 
-template <typename T>
+template<class T>
 void Queue<T>::add(T value) {
-    Node<T> *node = new Node<T>(value);
+    Node *node = new Node(value);
     if(isEmpty())
         this->first = this->last = node;
     else {
@@ -109,24 +108,24 @@ void Queue<T>::add(T value) {
     }
 }
 
-template <typename T>
+template<class T>
 T Queue<T>::peek() const {
     if(!isEmpty())
         return this->first->data;
 }
 
-template <typename T>
+template<class T>
 bool Queue<T>::isEmpty() const {
     return this->first == NULL; 
 }
 
-template <typename T>
+template<class T>
 void Queue<T>::clear() {
     while (!isEmpty())
         remove();
 }
 
-template <typename T>
+template<class T>
 void Queue<T>::print() const {
     std::cout << *this; 
 }
@@ -140,7 +139,7 @@ Queue<T>& Queue<T>::operator= (const Queue<T>& copyQueue) {
         original queue */
 }
 
-template <typename T>
+template<class T>
 std::ostream& operator<< (std::ostream& out, const Queue<T>& queue) {
     for(auto current = queue.first; current != NULL; current = current->next)
         out << current->data << " -> ";
