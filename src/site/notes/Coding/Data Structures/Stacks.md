@@ -8,34 +8,33 @@ The stack data structure is simply a stack of data. It uses LIFO (last-in first-
 ## Stack implementation
 Unlike an array, a stack does not offer constant-time access to the ith item. However, it does allow constant time adds and removes, as it doesn't require shifting elements around.
 #### My Stack class implementation in C++
+[Here](https://github.com/F4bbi/data-structures-implementation/tree/main/Stack) you can find the repository on GitHub with the complete code.
 ##### Stack.h
 ```cpp
 #pragma once
 
 /* Forward declaration of the template, so that operator<< is regognized as a template */
-template<typename T>
+template<class T>
 class Stack;
 
-template<typename T>
+template<class T>
 std::ostream& operator<< (std::ostream& out, const Stack<T>& stack);
 
-template<typename T>
+template<class T>
 class Stack {
-    private:
-        template<typename U>
-        class Node {
-            public:
-                U data;
-                Node* next;
-                
-                // default constructor
-                Node() = default;
+    class Node {
+        public:
+            T data;
+            Node* next;
+            
+            // default constructor
+            Node() = default;
 
-                // constructor with data
-                Node(const U& value) : data(value), next{NULL} {}
-            };
+            // constructor with data
+            Node(const T& value) : data(value), next{NULL} {}
+    };
     protected:
-        Node<T>* top;
+        Node* top;
     public:
         Stack() : top(NULL) {}
         Stack(const Stack& copySist);
@@ -58,26 +57,26 @@ class Stack {
 
 #include "Stack.h"
 
-template <typename T>
+template <class T>
 Stack<T>::Stack(const Stack& copyStack) {
-    Node<T>* newTop = this->top = new Node<T>();
+    Node* newTop = this->top = new Node();
     
     for(auto tmp = copyStack.top; tmp != NULL; tmp = tmp->next) {
-        newTop->next = new Node<T>(tmp->data);
+        newTop->next = new Node(tmp->data);
         newTop = newTop->next;
     }
 
-    Node<T>* tmp = this->top;
+    Node* tmp = this->top;
     this->top = this->top->next;
     delete tmp;
 }
 
-template <typename T>
+template <class T>
 Stack<T>::~Stack() {
     this->clear();
 }
 
-template <typename T>
+template <class T>
 void Stack<T>::initRandom(int size) {
     for(int i = 0; i < size; i++) {
             int random = rand() % 10;
@@ -85,42 +84,42 @@ void Stack<T>::initRandom(int size) {
     }
 }
 
-template <typename T>
+template <class T>
 T Stack<T>::pop() {
     if(isEmpty())
         throw std::invalid_argument("The stack is empty!");
-    Node<T> *temp = this->top;
+    Node *temp = this->top;
     this->top = this->top->next;
     int data = temp->data;
     delete temp;
     return data;
 }
 
-template <typename T>
+template <class T>
 void Stack<T>::push(T value) {
-    Node<T> *newTop = new Node<T>(value);
+    Node *newTop = new Node(value);
     newTop->next = this->top;
     top = newTop;
 }
 
-template <typename T>
+template <class T>
 T Stack<T>::peek() const {
     if(!isEmpty())
         return top->data;
 }
 
-template <typename T>
+template <class T>
 bool Stack<T>::isEmpty() const {
     return top == NULL; 
 }
 
-template <typename T>
+template <class T>
 void Stack<T>::clear() {
     while (!isEmpty())
         pop();
 }
 
-template <typename T>
+template <class T>
 void Stack<T>::print() const {
     std::cout << *this; 
 }
@@ -134,7 +133,7 @@ Stack<T>& Stack<T>::operator= (const Stack<T>& copyStack) {
         original stack */
 }
 
-template <typename T>
+template <class T>
 std::ostream& operator<< (std::ostream& out, const Stack<T>& stack) {
     for(auto current = stack.top; current != NULL; current = current->next)
         out << current->data << " -> ";
