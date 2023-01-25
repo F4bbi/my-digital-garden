@@ -14,8 +14,8 @@ B: $17$ $\underline{35}$ $39$ $\underline{40}$ $\underline{55}$ $58$ $60$
 
 ### Brute Force Algorithm 
 Start with each element in A and search for it in B.
-- Time complexity: $O(N^2)$
-- Space complexity: $O(N)$
+- **Time complexity:** $O(N^2)$
+- **Space complexity:** $O(N)$
 
 #### Solution in C++
 ```cpp
@@ -37,8 +37,8 @@ Or we can precompute what's in B. In fact **any work you do that's less than or 
 
 ### Near-Optimal Algorithm
 In this case, we can just throw everything in B into a [[Coding/Data Structures/Hash Tables\|hash table]].
-- Time complexity: $O(N)$
-- Space complexity: $O(N)$
+- **Time complexity:** $O(N)$
+- **Space complexity:** $O(N)$
 
 At this point we **can't** do better in terms of [[Coding/Cracking the Coding Interview/Concepts/1.1 Big O#⏱️ Time complexity\|runtime]], but we can optimize the [[Coding/Cracking the Coding Interview/Concepts/1.1 Big O#💾 Space Complexity\|space complexity]].
 In fact, we would have achieved the exact same runtime if the data wasn't sorted.
@@ -61,8 +61,8 @@ vector<int> intersect(vector<int>& A, vector<int>& B){
 ```
 
 ### Optimal Algorithm
-- Time complexity: $O(N)$
-- Space complexity: $O(1)$
+- **Time complexity:** $O(N)$
+- **Space complexity:** $O(1)$
 
 Since the two arrays are sorted, we just do linear search but we start where the last one left off.
 
