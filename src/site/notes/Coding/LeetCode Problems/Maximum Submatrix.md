@@ -33,8 +33,8 @@ int maximumSubmatrix(const vector<vector <int> > & matrix, const int N, const in
     return maxSoFar;
 }
 ```
-- Time complexity: $O(N^3*M^3)$ (where _N_ are the rows and _M_ the columns)
-- Space complexity: $O(1)$
+- **Time complexity:** $O(N^3*M^3)$ (where _N_ are the rows and _M_ the columns)
+- **Space complexity:** $O(1)$
 
 ### Optimal Algorithm
 You can see a good explanation [here](https://youtu.be/-FgseNO-6Gk?t=583)
@@ -63,5 +63,5 @@ int maximumSubmatrix(const vector<vector <int> > & matrix, const int N, const in
     return maxSoFar;    
 }
 ```
-- Time complexity: $O(N*M^2)$ (where _N_ are the rows and _M_ the columns)
-- Space complexity: $O(N)$
+- **Time complexity:** $O(N*M^2)$ (where _N_ are the rows and _M_ the columns)
+- **Space complexity:** $O(N)$
