@@ -20,24 +20,21 @@ _Output_ : 1 -> 2 -> 3 -> 4 (**one** example of output)
 template<typename T>
 class Node {
     public:
-        Node* next;
         T data;
-
-        Node();
-        Node(T value);
+        Node* next;
+        
+        Node() = default;
+        Node(const T& value) : data(value), next(NULL) {}
 };
 
 template<typename T>
 class LinkedList {
     protected:
         Node<T>* head;
-    public:
-	    LinkedList();
-        ~LinkedList();
 };
 
 template<typename T>
-class ImprovedLinkedList : public LinkedList<T> {
+class Solution : public LinkedList<T> {
     public:
         void partition(int n) {
             Node<T> *beforeXStart = NULL;
@@ -90,24 +87,21 @@ class ImprovedLinkedList : public LinkedList<T> {
 template<typename T>
 class Node {
     public:
-        Node* next;
         T data;
-
-        Node();
-        Node(T value);
+        Node* next;
+        
+        Node() = default;
+        Node(const T& value) : data(value), next(NULL) {}
 };
 
 template<typename T>
 class LinkedList {
     protected:
         Node<T>* head;
-    public:
-	    LinkedList();
-        ~LinkedList();
 };
 
 template<typename T>
-class ImprovedLinkedList : public LinkedList<T> {
+class Solution : public LinkedList<T> {
     public:
         void partition(int n) {
             Node<T>* tail = this->head;
