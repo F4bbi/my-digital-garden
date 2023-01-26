@@ -45,3 +45,4 @@ Here you will find my notes about the concepts explained in the book (for chapte
 |            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 5 - Sum Lists\|Problem 5 - Sum Lists]]              |     |
 |            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 6 - Palindrome\|Problem 6 - Palindrome]]             |     |
 |            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 7 - Intersection\|Problem 7 - Intersection]]           |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 8 - Loop Detection\|Problem 8 - Loop Detection]]         |     |
