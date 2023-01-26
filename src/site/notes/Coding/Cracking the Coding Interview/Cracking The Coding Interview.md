@@ -43,3 +43,5 @@ Here you will find my notes about the concepts explained in the book (for chapte
 |            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 3 - Delete Middle Node\|Problem 3 - Delete Middle Node]]     |     |
 |            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 4 - Partition\|Problem 4 - Partition]]              |     |
 |            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 5 - Sum Lists\|Problem 5 - Sum Lists]]              |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 6 - Palindrome\|Problem 6 - Palindrome]]             |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 7 - Intersection\|Problem 7 - Intersection]]           |     |
