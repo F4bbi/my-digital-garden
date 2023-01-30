@@ -173,7 +173,7 @@ L'idea è la seguente:
 		- Ricorsivamente, visitiamo il figlio destro, decrementando il livello di $1$
 
 ```cpp
-/* Function to print level order traversal a tree*/
+/* Function to print level order traversal a tree */
 void levelOrderTraversal(Tree root)
 {
     int h = height(root);
