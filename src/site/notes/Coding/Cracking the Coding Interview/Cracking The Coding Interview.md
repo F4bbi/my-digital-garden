@@ -28,21 +28,21 @@ Here you will find my notes about the concepts explained in the book (for chapte
 
 |            | **Problem solutions**                  |     |
 | ---------- | -------------------------------------- | --- |
-| Chapter 1. | [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 1 - IsUnique\|Problem 1 - IsUnique]]               |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 2.1 - Check Permutation\|Problem 2.1 - Check Permutation]]    |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 2.2 - Check Permutation\|Problem 2.2 - Check Permutation]]    |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 3 - URLify\|Problem 3 - URLify]]                 |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 4 - Palindrome Permutation\|Problem 4 - Palindrome Permutation]] |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 5 - One Away\|Problem 5 - One Away]]               |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 6 - String Compression\|Problem 6 - String Compression]]     |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 7 - Rotate Matrix\|Problem 7 - Rotate Matrix]]          |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 8 - Zero Matrix\|Problem 8 - Zero Matrix]]            |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 1 - Problems/Problem 9 - String Rotation\|Problem 9 - String Rotation]]        |     |
-| Chapter 2. | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 1 - Remove Dups\|Problem 1 - Remove Dups]]            |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 2 - Return Kth to Last\|Problem 2 - Return Kth to Last]]     |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 3 - Delete Middle Node\|Problem 3 - Delete Middle Node]]     |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 4 - Partition\|Problem 4 - Partition]]              |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 5 - Sum Lists\|Problem 5 - Sum Lists]]              |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 6 - Palindrome\|Problem 6 - Palindrome]]             |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 7 - Intersection\|Problem 7 - Intersection]]           |     |
-|            | [[Coding/Cracking the Coding Interview/Chapter 2 - Problems/Problem 8 - Loop Detection\|Problem 8 - Loop Detection]]         |     |
+| Chapter 1. | [[Coding/Cracking the Coding Interview/Chapter 1/Problem 1 - IsUnique\|Problem 1 - IsUnique]]               |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 1/Problem 2.1 - Check Permutation\|Problem 2.1 - Check Permutation]]    |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 1/Problem 2.2 - Check Permutation\|Problem 2.2 - Check Permutation]]    |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 1/Problem 3 - URLify\|Problem 3 - URLify]]                 |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 1/Problem 4 - Palindrome Permutation\|Problem 4 - Palindrome Permutation]] |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 1/Problem 5 - One Away\|Problem 5 - One Away]]               |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 1/Problem 6 - String Compression\|Problem 6 - String Compression]]     |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 1/Problem 7 - Rotate Matrix\|Problem 7 - Rotate Matrix]]          |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 1/Problem 8 - Zero Matrix\|Problem 8 - Zero Matrix]]            |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 1/Problem 9 - String Rotation\|Problem 9 - String Rotation]]        |     |
+| Chapter 2. | [[Coding/Cracking the Coding Interview/Chapter 2/Problem 1 - Remove Dups\|Problem 1 - Remove Dups]]            |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 2/Problem 2 - Return Kth to Last\|Problem 2 - Return Kth to Last]]     |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 2/Problem 3 - Delete Middle Node\|Problem 3 - Delete Middle Node]]     |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 2/Problem 4 - Partition\|Problem 4 - Partition]]              |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 2/Problem 5 - Sum Lists\|Problem 5 - Sum Lists]]              |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 2/Problem 6 - Palindrome\|Problem 6 - Palindrome]]             |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 2/Problem 7 - Intersection\|Problem 7 - Intersection]]           |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 2/Problem 8 - Loop Detection\|Problem 8 - Loop Detection]]         |     |
