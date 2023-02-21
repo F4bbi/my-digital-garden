@@ -317,7 +317,7 @@ Tree successor(Tree t) {
 		return t;
 	/* Caso 1*/
 	Tree current = t;
-	else if(current.right != NULL)
+	if(current.right != NULL)
 		return min(current.right)
 	else {
 		Tree p = current.parent;
@@ -423,7 +423,7 @@ Tree predecessor(Tree t) {
 		return t;
 	/* Caso 1*/
 	Tree current = t;
-	else if(current.left != NULL)
+	if(current.left != NULL)
 		return max(current.left)
 	else {
 		Tree p = current.parent;
