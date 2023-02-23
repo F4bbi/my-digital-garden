@@ -109,7 +109,6 @@ class Solution : public BinaryTree<T> {
             list.push_back(this->root);
             /* Enqueue root in result */
             result.push_back(list);
-            /* Enqueue root in result */
             list.push_back(NULL);
 
             while(!list.empty()) {
