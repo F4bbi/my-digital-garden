@@ -52,3 +52,5 @@ Here you will find my notes about the concepts explained in the book (for chapte
 |            | [[Coding/Cracking the Coding Interview/Chapter 4/Problem 3 - List of Depths\|Problem 3 - List of Depths]]         |     |
 |            | [[Coding/Cracking the Coding Interview/Chapter 4/Problem 4 - Check Balanced\|Problem 4 - Check Balanced]]         |     |
 |            | [[Coding/Cracking the Coding Interview/Chapter 4/Problem 5 - Validate BST\|Problem 5 - Validate BST]]           |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 4/Problem 6 - Successor\|Problem 6 - Successor]]              |     |
+|            | [[Coding/Cracking the Coding Interview/Chapter 4/Problem 7 - Build Order\|Problem 7 - Build Order]]            |     |
