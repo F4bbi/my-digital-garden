@@ -74,7 +74,7 @@ _Output:_
         D((d))
         E((e))
         F((f))
-        
+
         A---B
         A---D
         D---A
