@@ -132,7 +132,6 @@ Same case of the previous example, but here the given node is the maximum of the
 no in-order successor. We will continue to traverse the tree upwards until we find NULL, and we will return it.
 
 ```cpp
-```cpp
 template<typename T>
 class Node {
         public:
