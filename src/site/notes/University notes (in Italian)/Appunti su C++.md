@@ -153,3 +153,10 @@ istanzia le sue variabili a default (a 0, a NULL...), è come se non fosse scrit
 Node() {}
 ```
 non fa proprio niente, dentro le variabili di istanza ci può essere di tutto
+
+----
+## Appunto 7)
+Per inizializzare una matrice dinamica usando `std::vector`:
+```cpp
+vector<vector<int>> DP(n, vector<int>(m));
+```
