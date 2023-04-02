@@ -70,9 +70,8 @@ class Solution : public LinkedList<T> {
 - **Space complexity:** $O(1)$
 
 > [!info] **How did we found the middle of the list?** 
-> Since we don't know the size of the linked list, we can iterate through the linked list, using the fast runner/ slow
-runner technique. At each step in the loop, the slow runner is moving at 1x speed, while the fast runner is moving at 2x. 
-When the fast runner hits the end of the list, the slow runner will have reached the middle of the linked list.
+> Since we don't know the size of the linked list, we can iterate through the linked list, using the fast runner/ slow runner technique. At each step in the loop, the slow runner is moving at 1x speed, while the fast runner is moving at 2x.  
+> When the fast runner hits the end of the list, the slow runner will have reached the middle of the linked list.
 
 We can also do the same but reversing the first half of the list. The function would be similar.
 ```cpp
