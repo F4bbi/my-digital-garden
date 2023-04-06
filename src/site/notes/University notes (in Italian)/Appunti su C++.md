@@ -160,3 +160,14 @@ Per inizializzare una matrice dinamica usando `std::vector`:
 ```cpp
 vector<vector<int>> DP(n, vector<int>(m));
 ```
+
+## Appunto 8)
+Copy-paste per stampare una matrice
+```cpp
+for(int i = 0; i < n; i++) {
+	for(int j = 0; j < m; j++) {
+	    cout << "[" << DP[i][j] << "]" << " ";
+    }
+    cout << endl;
+}
+```
