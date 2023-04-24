@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/funzione-di-ripartizione-e-sue-proprieta/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/funzione-di-ripartizione-e-sue-proprieta/","created":"2022-05-14T22:51:35.497+02:00","updated":"2023-01-23T01:48:09.517+01:00"}
 ---
 
 # Funzione di ripartizione e sue proprietà

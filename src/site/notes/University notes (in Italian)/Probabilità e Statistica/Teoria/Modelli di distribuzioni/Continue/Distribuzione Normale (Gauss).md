@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/modelli-di-distribuzioni/continue/distribuzione-normale-gauss/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/modelli-di-distribuzioni/continue/distribuzione-normale-gauss/","created":"2022-05-22T11:40:46.122+02:00","updated":"2023-01-23T10:42:56.702+01:00"}
 ---
 
 # Distribuzione Normale

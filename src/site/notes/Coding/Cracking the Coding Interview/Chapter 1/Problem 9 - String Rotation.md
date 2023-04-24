@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-9-string-rotation/"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-9-string-rotation/","created":"2022-08-10T17:42:26.115+02:00","updated":"2023-01-24T11:51:47.970+01:00"}
 ---
 
 # Chapter 1 - Problem 8 - String Rotation

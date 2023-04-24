@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/disuguaglianza-di-markov-e-di-chebychev/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/disuguaglianza-di-markov-e-di-chebychev/","created":"2022-05-28T23:15:52.418+02:00","updated":"2023-01-23T01:45:22.639+01:00"}
 ---
 
 # Disuguaglianza di Markov

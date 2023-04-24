@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-3-list-of-depths/"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-3-list-of-depths/","created":"2023-01-30T16:56:29.771+01:00","updated":"2023-02-23T15:36:36.644+01:00"}
 ---
 
 # Chapter 4 - Problem 3 - List of Depths

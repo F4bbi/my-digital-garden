@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/assioma-1-1-estensionalita/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/assioma-1-1-estensionalita/","created":"2022-03-18T16:36:37.956+01:00","updated":"2023-01-23T16:25:03.827+01:00"}
 ---
 
 # Assioma 1.1 (Estensionalità)

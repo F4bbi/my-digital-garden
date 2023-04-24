@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/data-structures/linked-lists/"}
+{"dg-publish":true,"permalink":"/coding/data-structures/linked-lists/","created":"2022-08-11T10:40:30.583+02:00","updated":"2023-01-25T00:32:46.317+01:00"}
 ---
 
 # Linked Lists

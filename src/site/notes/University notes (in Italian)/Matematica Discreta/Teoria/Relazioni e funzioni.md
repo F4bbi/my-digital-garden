@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/relazioni-e-funzioni/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/relazioni-e-funzioni/","created":"2022-03-18T16:36:39.539+01:00","updated":"2023-01-23T16:29:19.582+01:00"}
 ---
 
 # Relazioni e funzioni

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/modelli-di-distribuzioni/discrete/distribuzione-geometrica/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/modelli-di-distribuzioni/discrete/distribuzione-geometrica/","created":"2022-05-21T14:42:40.786+02:00","updated":"2023-01-23T10:43:58.170+01:00"}
 ---
 
 # Distribuzione Geometrica

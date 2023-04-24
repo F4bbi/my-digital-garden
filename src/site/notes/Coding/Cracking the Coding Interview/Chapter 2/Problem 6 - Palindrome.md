@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-6-palindrome/"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-6-palindrome/","created":"2023-01-25T12:32:43.930+01:00","updated":"2023-03-29T00:27:48.517+02:00"}
 ---
 
 # Chapter 2 - Problem 6 - Palindrome

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/approssimare-la-binomiale-con-la-normale/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/approssimare-la-binomiale-con-la-normale/","created":"2022-05-28T17:32:09.299+02:00","updated":"2023-01-23T01:44:46.683+01:00"}
 ---
 
 # Approssimare la binomiale con la normale

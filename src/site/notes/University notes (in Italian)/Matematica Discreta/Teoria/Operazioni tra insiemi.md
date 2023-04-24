@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/operazioni-tra-insiemi/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/operazioni-tra-insiemi/","created":"2022-03-18T16:36:37.788+01:00","updated":"2023-01-23T16:28:31.769+01:00"}
 ---
 
 # Operazioni tra insiemi

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-6-successor/"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-6-successor/","created":"2023-02-21T14:42:19.800+01:00","updated":"2023-02-22T21:11:58.113+01:00"}
 ---
 
 # Chapter 4 - Problem 6 - Successor

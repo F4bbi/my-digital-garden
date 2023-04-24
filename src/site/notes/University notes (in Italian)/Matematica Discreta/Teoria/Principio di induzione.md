@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/principio-di-induzione/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/principio-di-induzione/","created":"2022-03-18T16:36:41.187+01:00","updated":"2023-01-23T16:28:57.188+01:00"}
 ---
 
 # Principio di induzione

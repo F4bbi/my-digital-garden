@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/modelli-di-distribuzioni/continue/distribuzione-esponenziale/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/modelli-di-distribuzioni/continue/distribuzione-esponenziale/","created":"2022-05-22T11:53:11.455+02:00","updated":"2023-01-23T11:15:15.036+01:00"}
 ---
 
 # Distribuzione Esponenziale
