@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/variabili-aleatorie-doppie-discrete/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/variabili-aleatorie-doppie-discrete/","created":"2022-05-23T08:39:56.942+02:00","updated":"2023-01-23T01:49:18.108+01:00"}
 ---
 
 # Variabili aleatorie doppie discrete

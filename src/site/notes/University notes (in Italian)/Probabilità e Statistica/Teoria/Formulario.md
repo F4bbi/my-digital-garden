@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/formulario/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/formulario/","created":"2022-06-08T20:07:55.163+02:00","updated":"2023-01-23T17:46:02.237+01:00"}
 ---
 
 # Formulario di Probabilità e Statistica

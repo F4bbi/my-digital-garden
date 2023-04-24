@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/modelli-di-distribuzioni/discrete/distribuzione-di-poisson/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/modelli-di-distribuzioni/discrete/distribuzione-di-poisson/","created":"2022-05-21T14:57:31.748+02:00","updated":"2023-01-23T10:43:41.681+01:00"}
 ---
 
 # Distribuzione di Poisson

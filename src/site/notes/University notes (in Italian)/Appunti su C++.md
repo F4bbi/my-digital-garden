@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/appunti-su-c/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/appunti-su-c/","created":"2022-06-16T10:44:11.895+02:00","updated":"2023-04-04T20:08:49.239+02:00"}
 ---
 
 # Appunti su C++

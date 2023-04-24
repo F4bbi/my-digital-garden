@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/funzione-come-legge/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/funzione-come-legge/","created":"2022-03-18T16:36:39.077+01:00","updated":"2023-01-23T16:26:06.505+01:00"}
 ---
 
 # Funzione come legge

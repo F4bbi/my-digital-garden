@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/fisica/principi-della-dinamica/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/fisica/principi-della-dinamica/","created":"2023-03-06T14:43:47.408+01:00","updated":"2023-04-02T14:45:17.920+02:00"}
 ---
 
 # Principi della dinamica

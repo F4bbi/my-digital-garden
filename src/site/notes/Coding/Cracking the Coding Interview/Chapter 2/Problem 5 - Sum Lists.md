@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-5-sum-lists/"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-5-sum-lists/","created":"2022-08-27T23:38:26.384+02:00","updated":"2023-01-25T22:49:30.326+01:00"}
 ---
 
 # Chapter 2 - Problem 5 - Sum Lists

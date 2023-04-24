@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-6-string-compression/"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-6-string-compression/","created":"2022-08-07T15:27:30.496+02:00","updated":"2023-01-24T11:51:35.301+01:00"}
 ---
 
 # Chapter 1 - Problem 6 - String Compression

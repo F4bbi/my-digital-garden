@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/data-structures/binary-search-trees-in-italian/"}
+{"dg-publish":true,"permalink":"/coding/data-structures/binary-search-trees-in-italian/","created":"2023-01-24T23:36:50.799+01:00","updated":"2023-01-25T00:09:07.280+01:00"}
 ---
 
 

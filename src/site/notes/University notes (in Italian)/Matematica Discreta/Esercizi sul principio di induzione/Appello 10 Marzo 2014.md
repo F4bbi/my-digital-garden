@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/esercizi-sul-principio-di-induzione/appello-10-marzo-2014/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/esercizi-sul-principio-di-induzione/appello-10-marzo-2014/","created":"2022-03-18T16:36:41.925+01:00","updated":"2023-01-24T00:40:24.604+01:00"}
 ---
 
 # Esercizio (Appello 10 Marzo 2014)

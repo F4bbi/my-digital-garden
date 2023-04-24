@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/funzione-di-probabilita-discreta/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/probabilita-e-statistica/teoria/funzione-di-probabilita-discreta/","created":"2022-05-18T11:59:28.751+02:00","updated":"2023-01-23T01:47:28.269+01:00"}
 ---
 
 # Funzione di probabilità discreta

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/data-structures/c-std-array/"}
+{"dg-publish":true,"permalink":"/coding/data-structures/c-std-array/","created":"2022-08-04T10:57:35.121+02:00","updated":"2023-01-23T01:31:33.959+01:00"}
 ---
 
 # C++ std::array

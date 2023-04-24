@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/teorema-di-ricorsione/"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/matematica-discreta/teoria/teorema-di-ricorsione/","created":"2022-03-18T16:36:41.925+01:00","updated":"2023-01-23T16:30:32.395+01:00"}
 ---
 
 # Teorema di ricorsione

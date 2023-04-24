@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/leet-code-problems/maximum-submatrix/"}
+{"dg-publish":true,"permalink":"/coding/leet-code-problems/maximum-submatrix/","created":"2022-09-22T16:39:12.686+02:00","updated":"2023-01-26T00:34:40.487+01:00"}
 ---
 
 # Maximum Submatrix
