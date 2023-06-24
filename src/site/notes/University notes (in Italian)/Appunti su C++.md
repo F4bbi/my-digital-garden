@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/appunti-su-c/","created":"2022-06-16T10:44:11.895+02:00","updated":"2023-04-04T20:08:49.239+02:00"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/appunti-su-c/","created":"2022-06-16T10:44:11.895+02:00","updated":"2023-06-03T17:11:55.957+02:00"}
 ---
 
 # Appunti su C++
@@ -140,6 +140,27 @@ g++ -std=c++17 -Wall -g file.cc
 Per dare i privilegi in caso di necessità:
 ```
 sudo chown -R fabbi ~/coding
+```
+
+File make per compilare un file C++
+```bash
+CC = g++
+TARGET = canial
+SOURCE = main.cpp
+FLAGS = -Wall -Wextra -Werror -g -std=c++17
+DEST ?= .
+
+# Regola per generare il binario nella cartella specificata tramite la variabile DEST
+all:
+	@if [ -d $(DEST) ]; then \
+		$(CC) $(FLAGS) $(SOURCE) -o $(DEST)/$(TARGET); \
+	else \
+		echo "ERROR" >& 2; \
+	fi
+
+# Regola per pulire i file oggetto e i file senza estensione
+clean:
+	rm -f $(DEST)/*.o $(DEST)/*.out $(DEST)/*
 ```
 
 ---
