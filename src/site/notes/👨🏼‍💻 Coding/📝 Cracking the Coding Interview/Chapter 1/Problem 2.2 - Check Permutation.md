@@ -1,11 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-2-2-check-permutation/","created":"2022-08-04T17:01:51.885+02:00","updated":"2023-01-24T11:51:14.968+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-2-2-check-permutation/","created":"2022-08-04T17:01:51.885+02:00","updated":"2023-07-24T15:38:39.900+02:00"}
 ---
 
 # Chapter 1 - Problem 2.2 - Check Permutation
+#leetcode/438 #leetcode/567 
 ## Problem
 Given a smaller string `s1` and a bigger string `s2`, design an algorithm to find all permutations of the shorter string within the longer one. Return an array of all the start indices of  `s1`'s anagrams in `s2`.
-#leetcode/438 #leetcode/567 
+
 ## Solution
 The assumptions are the same of [[👨🏼‍💻 Coding/📝 Cracking the Coding Interview/Chapter 1/Problem 2.1 - Check Permutation\|Problem 2.1 - Check Permutation]].
 
