@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/google-problems/minimum-deletion/","created":"2023-07-20T18:23:46.852+02:00","updated":"2023-07-22T15:19:54.075+02:00"}
+{"dg-publish":true,"permalink":"/coding/google-problems/minimum-deletion/","created":"2023-07-20T18:23:46.852+02:00","updated":"2023-07-24T12:11:42.190+02:00"}
 ---
 
 # Minimum Deletion
@@ -20,26 +20,20 @@ $1 \leq N \leq 10^3$
 $1 \leq A_i \leq 10^9$
 
 ### Example 1)
-Input
 ```bash
+Input:
 5
 1 1 3 3 3
-```
-
-Output
-```bash
+Output:
 1
 ```
 
 ### Example 2)
-Input
 ```bash
+Input:
 9
 6 1 1 7 6 3 6 6 5
-```
-
-Output
-```bash
+Output:
 3
 ```
 
@@ -52,11 +46,8 @@ int minimumDeletion(vector<int>& array) {
     unordered_map<int, int> map;
     int max_frequence = 0;
     int result = INT_MAX;
-    for(int val : array) {
-        if(map.find(val) == map.end())
-            map.insert({val, 0});
-        map.at(val)++;
-    }
+    for(int val : array)
+        map[val]++;
     //get the value with the highest frequency in the map
     max_frequence =  max_element(
         map.begin(),
@@ -91,11 +82,8 @@ int minimumDeletion(vector<int>& array) {
     unordered_map<int, int> map;
     int max_frequence = 0;
     int result = INT_MAX;
-    for(int val : array) {
-        if(map.find(val) == map.end())
-            map.insert({val, 0});
-        map.at(val)++;
-    }
+    for(int val : array)
+        map[val]++;
     //get the value with the highest frequency in the map
     max_frequence =  max_element(
                                     map.begin(),
