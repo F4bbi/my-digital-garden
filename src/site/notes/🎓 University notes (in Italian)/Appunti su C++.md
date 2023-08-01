@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-in-italian/appunti-su-c/","created":"2022-06-16T10:44:11.895+02:00","updated":"2023-06-26T16:06:53.421+02:00"}
+{"dg-publish":true,"permalink":"/university-notes-in-italian/appunti-su-c/","created":"2022-06-16T10:44:11.895+02:00","updated":"2023-07-24T11:55:56.926+02:00"}
 ---
 
 # Appunti su C++
@@ -192,3 +192,8 @@ for(int i = 0; i < n; i++) {
     cout << endl;
 }
 ```
+
+## Appunto 9)
+`unordered_map` `.at()` è diverso da `unordered_map operator[]` 
+
+Both at() and operator[] is used to refer the element present at the given _**position**_, the only difference is, at() throws out-of-range exception whereas operator[] shows **undefined behavior** i.e. if operator[] is used to find the value corresponding to key and if key is not present in unordered map, it will first insert the key into the map and then assign the default value ‘0’ corresponding to that key.
