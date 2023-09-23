@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-6-string-compression/","created":"2022-08-07T15:27:30.496+02:00","updated":"2023-01-24T11:51:35.301+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-6-string-compression/","created":"2022-08-07T15:27:30.496+02:00","updated":"2023-08-10T11:43:39.517+02:00"}
 ---
 
 # Chapter 1 - Problem 6 - String Compression
@@ -7,7 +7,7 @@
 Implement a method to perform basic string compression using the counts of repeated characters. For example, the string _aabcccccaaa_ would become _a2b1c5a3_. If the "compressed" string would not become smaller than the original string, your method should return the original string. You can assume the string has only uppercase and lowercase letters (a - z).
 
 ## Solution
-We iterate through the string, copying characters to a new string and counting the repeats. 
+We iterate over the string, copying characters to a new string and counting the repeats. 
 At each iteration, check if the current character is the same as the next character. If not, add its compressed version to the result.
 #### Solution in C++ 
 ```cpp
