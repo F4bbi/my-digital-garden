@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-6-palindrome/","created":"2023-01-25T12:32:43.930+01:00","updated":"2023-03-29T00:27:48.517+02:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-6-palindrome/","created":"2023-01-25T12:32:43.930+01:00","updated":"2023-08-10T11:43:35.516+02:00"}
 ---
 
 # Chapter 2 - Problem 6 - Palindrome
@@ -7,11 +7,8 @@
 Implement a function to check if a linked list is a palindrome.
 
 #### Solution in C++ using Reverse and Compare
-The solution is to reverse the linked list and compare the reversed list to the original list. If they're the
-same, the lists are identical.
-Note that when we compare the linked list to the reversed list, we only actually need to compare the first
-half of the list. If the first half of the normal list matches the first half of the reversed list, then the second half
-of the normal list must match the second half of the reversed list.
+The solution is to reverse the linked list and compare the reversed list to the original list. If they're the same, the lists are identical.
+Note that when we compare the linked list to the reversed list, we only actually need to compare the first half of the list. If the first half of the normal list matches the first half of the reversed list, then the second half of the normal list must match the second half of the reversed list.
 ```cpp
 template<typename T>
 class Node {
@@ -70,7 +67,7 @@ class Solution : public LinkedList<T> {
 - **Space complexity:** $O(1)$
 
 > [!info] **How did we found the middle of the list?** 
-> Since we don't know the size of the linked list, we can iterate through the linked list, using the fast runner/ slow runner technique. At each step in the loop, the slow runner is moving at 1x speed, while the fast runner is moving at 2x.  
+> Since we don't know the size of the linked list, we can iterate over the linked list, using the fast runner/ slow runner technique. At each step in the loop, the slow runner is moving at 1x speed, while the fast runner is moving at 2x.  
 > When the fast runner hits the end of the list, the slow runner will have reached the middle of the linked list.
 
 We can also do the same but reversing the first half of the list. The function would be similar.
@@ -131,24 +128,28 @@ class Solution : public LinkedList<T> {
     public:
         bool isPalindrome() {
             if(this->head == NULL) return false;
-            Node<T>* reversed = NULL, *slowRunner = this->head, *fastRunner = this->head;
             
-            /* find middle of list */
+            Node<T> *slowRunner = this->head, *fastRunner = this->head;
+            std::stack<T> stack; 
+
+            /* find middle of list and push the first half in stack */
             while (fastRunner != NULL && fastRunner->next != NULL) {
+                stack.push(slowRunner->data);
                 slowRunner = slowRunner->next;
                 fastRunner = fastRunner->next->next;
             }
 
-            /* reverse second half of list */
-            while (slowRunner != NULL) {
-                Node<T>* next = slowRunner->next;
-                slowRunner->next = reversed;
-                reversed = slowRunner;
-                slowRunner = next;
-            }
+            /* The list has odd number of elements, so skip the middle element */
+            if(fastRunner != NULL)
+                slowRunner = slowRunner->next;
 
-            /* we don't have to care if the list has odd number of elements */
-            return isEqual(reversed, this->head);
+            for(; slowRunner != NULL; slowRunner = slowRunner->next) {
+                int top = stack.top();
+                stack.pop();
+                if(top != slowRunner->data)
+                    return false;
+            }
+            return true;
         }
 }
 ```
