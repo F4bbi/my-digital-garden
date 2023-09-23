@@ -72,7 +72,7 @@ void preOrder(TreeNode t) {
 **Sequenza:** A B C D E F G
 
 #### In-Order Traversal
-Nella visita in in-order prima si stampa il ramo sinistro, poi il nodo corrente e infine il ramo destro. Nella visita in in-order la radice è sempre il nodo visitato per ultimo. Quando eseguita in un albero binario di ricerca, la visita in in-order visita i nodi in ordine crescente (da qui il nome "in-order").
+Nella visita in in-order prima si stampa il ramo sinistro, poi il nodo corrente e infine il ramo destro. Quando eseguita in un albero binario di ricerca, la visita in in-order visita i nodi in ordine crescente (da qui il nome "in-order").
 
 ```cpp
 void inOrder(TreeNode t) {
