@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-1-remove-dups/","created":"2022-08-12T11:19:12.610+02:00","updated":"2023-01-25T22:49:26.486+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-1-remove-dups/","created":"2022-08-12T11:19:12.610+02:00","updated":"2023-08-10T11:43:29.930+02:00"}
 ---
 
 # Chapter 2 - Problem 1 - Remove Dups
@@ -8,7 +8,7 @@ Write code to remove duplicates from an unsorted linked list. How would you solv
 
 ## Solution
 One approach is simply using a hash table to track duplicates.
-We simply iterate through the linked list, adding each element to a hash table. When
+We simply iterate over the linked list, adding each element to a hash table. When
 we discover a duplicate element, we remove the element and continue iterating. 
 How do we remove the element? We keep a pointer in the node preceding the one we are checking and if we have to remove it, we will make the previous node point to the `current->next node`.
 (In the below solution i am using my own linked list, which you can find in [[👨🏼‍💻 Coding/🏗 Data Structures/Linked Lists\|Linked Lists]]).
