@@ -33,7 +33,7 @@ Permette di ricercare un determinato valore all'interno dell'albero.
 
 **L'idea** è la seguente:
 1. Iniziamo dalla radice. 
-2.  Compariamo se l'elemento cercato con la radice, se minore visitiamo il sottoalbero sinistro, altrimenti visitiamo il sottoalbero destro. 
+2.  Compariamo l'elemento cercato con la radice: se minore, visitiamo il sottoalbero sinistro, altrimenti visitiamo il sottoalbero destro. 
 3.  Se troviamo l'elemento cercato restituiamo vero (oppure il nodo), altrimenti restituiamo falso (o NULL).
 
 #### Implementazione ricorsiva
@@ -49,7 +49,11 @@ Tree search(Tree root, Item key) {
 ```
 - Time complexity: $O(h)$ (_h_ è l'altezza dell'albero)
 	(Worst case Time Complexity : $O(n)$)
-- Space complexity: $O(h)$ (se l'albero non è bilanciato, nel caso peggiore è praticamente una lista) 
+- Space complexity: $O(h)$
+	(Worst case Space Complexity : $O(n)$)
+
+Se l'albero non è bilanciato, nel caso peggiore è praticamente una lista, per questo esce $O(n)$ nel caso peggiore.
+
 #### Implementazione iterativa
 ```cpp
 Tree search(Tree root, Item key) {
