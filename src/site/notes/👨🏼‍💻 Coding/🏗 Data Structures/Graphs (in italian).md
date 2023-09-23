@@ -181,7 +181,7 @@ void BFS(vector<vector<int>>& graph, int root) {
 #### 🔢 Numero di Erdos
 > Il numero di Erdős è un modo per descrivere la "distanza" tra una persona e il matematico ungherese Paul Erdős in termini di collaborazione in pubblicazioni matematiche. È stato creato dagli amici di Erdős come tributo scherzoso all'enorme numero di pubblicazioni da lui scritte in collaborazione con un gran numero di matematici diversi.
 
-Nel nostro caso calcoliamo la distanze tra un nodo e tutti gli altri nodi e li memorizziamo in un array. Il principio è lo stesso del DFS.
+Nel nostro caso calcoliamo la distanze tra un nodo e tutti gli altri nodi e li memorizziamo in un array.
 
 ```cpp
 vector<int> distance(vector<vector<int>>& graph, int node) {
