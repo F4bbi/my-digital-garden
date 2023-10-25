@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-4-palindrome-permutation/","created":"2022-08-06T10:21:12.587+02:00","updated":"2023-01-24T11:51:23.215+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-4-palindrome-permutation/","created":"2022-08-06T10:21:12.587+02:00","updated":"2023-10-25T18:39:32.528+02:00"}
 ---
 
 # Chapter 1 - Problem 4 - Palindrome Permutation
@@ -19,16 +19,15 @@ To be a permutation of a palindrome, a string can't have more than one character
 #### Solution in C++ with array
 We simply count the frequency of each character and after we check that the string has no more than one character that is odd.
 ```cpp
-int getIndex(char c)
-{
+int getIndex(char c) {
   if (c >= 'a' && c <= 'z')
     return (int)(c - 'a');
   return -1;
 }
 
-std::array<int, 26> getCharFrequencyTable(std::string string) {
+std::array<int, 26> getCharFrequencyTable(std::string str) {
     std::array<int, 26> frequencyTable = {};
-    for(char c : string) {
+    for(char c : str) {
         int index = getIndex(c);
         if(index != -1)
             frequencyTable.at(index)++;
@@ -36,8 +35,8 @@ std::array<int, 26> getCharFrequencyTable(std::string string) {
     return frequencyTable;
 }
 
-bool palindromePermutation(std::string string) {
-    std::array<int, 26> frequencyTable = getCharFrequencyTable(string);
+bool palindromePermutation(std::string str) {
+    std::array<int, 26> frequencyTable = getCharFrequencyTable(str);
     bool isOddNumber = false;
     for(int number : frequencyTable) {
         if((number % 2) != 0) {
