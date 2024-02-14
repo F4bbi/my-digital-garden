@@ -2,6 +2,7 @@ const sortTree = (unsorted) => {
   //Sort by folder before file, then by name
   const orderedTree = Object.keys(unsorted)
     .sort((a, b) => {
+
       let a_pinned = unsorted[a].pinned || false;
       let b_pinned = unsorted[b].pinned || false;
       if (a_pinned != b_pinned) {
@@ -21,16 +22,6 @@ const sortTree = (unsorted) => {
 
       if (!a_is_note && b_is_note) {
         return -1;
-      }
-      //Regular expression that extracts decimal numbers to sort them correctly
-      const aNum = parseFloat(a.match(/^\d+(\.\d+)?/));
-      const bNum = parseFloat(b.match(/^\d+(\.\d+)?/));
-
-      const a_is_num = !isNaN(aNum);
-      const b_is_num = !isNaN(bNum);
-
-      if (a_is_num && b_is_num && aNum != bNum) {
-        return aNum - bNum; //Fast comparison between numbers
       }
 
       if (a.toLowerCase() > b.toLowerCase()) {
@@ -68,7 +59,7 @@ function getPermalinkMeta(note, key) {
     }
     if (note.data.tags && note.data.tags.indexOf("gardenEntry") != -1) {
       permalink = "/";
-    }
+    }    
     if (note.data.title) {
       name = note.data.title;
     }
@@ -86,9 +77,11 @@ function getPermalinkMeta(note, key) {
     if (note.data["dg-path"]) {
       folders = note.data["dg-path"].split("/");
     } else {
-      folders = note.filePathStem.split("notes/")[1].split("/");
+      folders = note.filePathStem
+        .split("notes/")[1]
+        .split("/");
     }
-    folders[folders.length - 1] += ".md";
+    folders[folders.length - 1]+= ".md";
   } catch {
     //ignore
   }
