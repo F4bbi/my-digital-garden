@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/open-source-contributions/","created":"2024-10-08T18:37:28.052+02:00","updated":"2024-10-08T20:48:09.645+02:00"}
+{"dg-publish":true,"permalink":"/coding/open-source-contributions/","created":"2024-10-08T20:48:09.645+02:00","updated":"2024-10-08T20:48:09.645+02:00"}
 ---
 
 # 🌱 Open Source Contributions

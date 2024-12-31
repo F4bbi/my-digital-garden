@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-6-successor/","created":"2023-02-21T14:42:19.800+01:00","updated":"2023-02-22T21:11:58.113+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-6-successor/","created":"2023-02-22T21:12:03.239+01:00","updated":"2023-02-22T21:12:03.239+01:00"}
 ---
 
 # Chapter 4 - Problem 6 - Successor
 ## Problem
 Write an algorithm to find the "next" node (i.e., in-order successor) of a given node in a binary search tree. You may assume that each node has a link to its parent.
 #### Solution in C++
-This problem is well explained in [[🎓 University notes (in Italian)/⚙️ Algoritmi e Strutture Dati/3.3 Alberi Binari di Ricerca#Successore di un nodo\|3.3 Alberi Binari di Ricerca#Successore di un nodo]], in italian. Here's the translation.
+This problem is well explained in [[🎓 University notes (mostly in Italian)/⚙️ Algoritmi e Strutture Dati/3.3 Alberi Binari di Ricerca#Successore di un nodo\|3.3 Alberi Binari di Ricerca#Successore di un nodo]], in italian. Here's the translation.
 
 There are essentially 4 cases that can happen when we want to find the successor of a node in a binary search tree.
 In all the following examples, the blue node is the given node, the red one the successor.

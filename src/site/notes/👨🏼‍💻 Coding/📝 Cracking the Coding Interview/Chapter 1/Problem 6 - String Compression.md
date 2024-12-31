@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-6-string-compression/","created":"2022-08-07T15:27:30.496+02:00","updated":"2023-08-10T11:43:39.517+02:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-6-string-compression/","created":"2023-10-25T19:01:33.143+02:00","updated":"2023-10-25T19:01:33.143+02:00"}
 ---
 
 # Chapter 1 - Problem 6 - String Compression
@@ -17,7 +17,10 @@ std::string stringCompression(std::string string) {
     for(int i = 0; i < string.length(); i++) {
         charCounter++;
 
-        /* If next character is different than current, append this char to result. */
+        /* 
+	        If next character is different than current,
+	        append this char to result. 
+	    */
         if(i + 1 >= string.length() || string.at(i) != string.at(i+1)) {
             /* First condition it's because at last iteration we would go out of bounds. */
             compressedString += string.at(i) + std::to_string(charCounter);
@@ -32,7 +35,7 @@ std::string stringCompression(std::string string) {
 - **Space complexity:** $O(c)$ (where _c_ is the number of character sequences)
 
 >[!warning] Be careful!
->In C++ strings are mutable, so the performance considerations of strings concatenation are less of a concern.
+>C++ strings are mutable, so the performance considerations of strings concatenation are less of a concern.
 >However, in other languages like Java, strings are immutable so using the + operator will create a new instance of the string on each iteration. In this case, the time complexity would be $O(s + c^2)$. 
 >For more details see [[👨🏼‍💻 Coding/🏗 Data Structures/StringBuilder\|StringBuilder]].
 

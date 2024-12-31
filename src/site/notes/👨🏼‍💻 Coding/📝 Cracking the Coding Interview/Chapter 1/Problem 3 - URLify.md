@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-3-ur-lify/","created":"2022-08-05T16:57:39.791+02:00","updated":"2023-01-24T11:51:17.072+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-3-ur-lify/","created":"2023-01-24T11:51:21.230+01:00","updated":"2023-01-24T11:51:21.230+01:00"}
 ---
 
 # Chapter 1 - Problem 3 - URLify

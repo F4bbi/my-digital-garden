@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-3-delete-middle-node/","created":"2022-08-14T10:59:23.062+02:00","updated":"2023-01-25T15:41:39.544+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-3-delete-middle-node/","created":"2023-01-25T15:41:44.764+01:00","updated":"2023-01-25T15:41:44.764+01:00"}
 ---
 
 # Chapter 2 - Problem 3 - Delete Middle Node

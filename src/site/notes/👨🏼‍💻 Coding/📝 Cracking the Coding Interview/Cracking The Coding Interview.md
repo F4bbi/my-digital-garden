@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/cracking-the-coding-interview/","created":"2023-01-24T23:11:33.151+01:00","updated":"2023-02-23T23:50:13.631+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/cracking-the-coding-interview/","created":"2023-02-23T23:50:20.400+01:00","updated":"2023-02-23T23:50:20.400+01:00"}
 ---
 
 # Cracking The Coding Interview

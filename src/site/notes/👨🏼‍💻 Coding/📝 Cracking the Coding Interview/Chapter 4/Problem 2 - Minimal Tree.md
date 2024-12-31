@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-2-minimal-tree/","created":"2023-01-29T18:55:09.838+01:00","updated":"2023-01-30T22:00:41.136+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-2-minimal-tree/","created":"2023-01-30T22:00:44.880+01:00","updated":"2023-01-30T22:00:44.880+01:00"}
 ---
 
 # Chapter 4 - Problem 2 - Minimal Tree

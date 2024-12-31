@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-2-2-check-permutation/","created":"2022-08-04T17:01:51.885+02:00","updated":"2023-07-24T15:38:39.900+02:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-2-2-check-permutation/","created":"2023-10-25T18:37:17.707+02:00","updated":"2023-10-25T18:37:17.707+02:00"}
 ---
 
 # Chapter 1 - Problem 2.2 - Check Permutation

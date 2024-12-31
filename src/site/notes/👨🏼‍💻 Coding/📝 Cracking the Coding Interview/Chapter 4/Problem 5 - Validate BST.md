@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-5-validate-bst/","created":"2023-02-21T09:30:07.033+01:00","updated":"2023-02-21T14:42:16.982+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-5-validate-bst/","created":"2023-02-21T14:42:23.617+01:00","updated":"2023-02-21T14:42:23.617+01:00"}
 ---
 
 # Chapter 4 - Problem 5 - Validate BST

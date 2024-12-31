@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/coding/data-structures/graphs-in-italian/","created":"2023-01-24T23:42:38.701+01:00","updated":"2023-01-25T00:09:14.896+01:00"}
+{"dg-publish":true,"permalink":"/coding/data-structures/graphs-in-italian/","created":"2023-01-25T00:09:24.849+01:00","updated":"2023-01-25T00:09:24.849+01:00"}
 ---
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/university-notes-in-italian/algoritmi-e-strutture-dati/4-grafi/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/university-notes-mostly-in-italian/algoritmi-e-strutture-dati/4-grafi/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
 
 
@@ -346,7 +346,7 @@ void DFS(vector<vector<int>>& graph) {
 
 _Esempio:_
 
-![TopologicalSort.png|700](/img/user/%F0%9F%8E%93%20University%20notes%20(in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/TopologicalSort.png)
+![TopologicalSort.png|700](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/TopologicalSort.png)
 
 &nbsp;
 - **Grafo trasposto:**

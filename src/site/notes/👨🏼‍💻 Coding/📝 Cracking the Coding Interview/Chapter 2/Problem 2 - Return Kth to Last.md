@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-2-return-kth-to-last/","created":"2022-08-13T14:20:32.115+02:00","updated":"2023-01-25T15:41:29.244+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-2-return-kth-to-last/","created":"2023-10-25T21:26:28.385+02:00","updated":"2023-10-25T21:26:28.385+02:00"}
 ---
 
 # Chapter 2 - Problem 2 - Return Kth to Last
@@ -55,8 +55,7 @@ class Solution : public LinkedList<T> {
 
 #### Recursive solution in C++ (in reality java)
 If we used Java instead of C++, we could not pass back a node and a counter using normal return statements. 
-One way to resolve this is to change the problem to simply printing the kth to last element. Then, we can pass
-back the value of the counter simply through return values.
+One way to resolve this is to change the problem to simply printing the kth to last element. Then, we can pass back the value of the counter simply through return values.
 ```cpp
 template<typename T>
 class Solution : public LinkedList<T> {

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/data-structures/queues/","created":"2022-09-22T19:23:06.351+02:00","updated":"2023-01-25T00:33:48.054+01:00"}
+{"dg-publish":true,"permalink":"/coding/data-structures/queues/","created":"2023-01-25T00:33:57.657+01:00","updated":"2023-01-25T00:33:57.657+01:00"}
 ---
 
 # Queues

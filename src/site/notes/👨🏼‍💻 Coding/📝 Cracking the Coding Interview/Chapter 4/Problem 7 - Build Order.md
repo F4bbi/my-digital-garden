@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-7-build-order/","created":"2023-02-23T22:22:43.649+01:00","updated":"2023-02-23T23:49:44.695+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-7-build-order/","created":"2023-02-23T23:49:49.717+01:00","updated":"2023-02-23T23:49:49.717+01:00"}
 ---
 
 # Chapter 4 - Problem 7 - Build Order
