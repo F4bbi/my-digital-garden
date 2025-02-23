@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2024-09-06T12:00:39.098+02:00","updated":"2025-02-23T16:24:30.163+01:00"}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2024-09-06T12:00:39.098+02:00","updated":"2025-02-23T16:31:42.204+01:00"}
 ---
 
 ![Minì.jpg|400](/img/user/%F0%9F%93%92%20Diary/Video-Photo/Min%C3%AC.jpg)
