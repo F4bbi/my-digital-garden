@@ -10,14 +10,14 @@
 
 # Alberi binari
 ## Indice
-- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#📝Definizione\|📝Definizione]]
-- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#🔎 Visita di un albero\|🔎 Visita di un albero]]
-	- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Depth-First Search (DFS)\|Depth-First Search (DFS)]]
-		- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Pre-Order Traversal\|Pre-Order Traversal]]
-		- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#In-Order Traversal\|In-Order Traversal]]
-		- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Post-Order Traversal\|Post-Order Traversal]]
-	- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Breadth First Search (BFS)\|Breadth First Search (BFS)]]
-		- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Level Order Traversal\|Level Order Traversal]]
+- [[#📝Definizione|📝Definizione]]
+- [[#🔎 Visita di un albero|🔎 Visita di un albero]]
+	- [[#Depth-First Search (DFS)|Depth-First Search (DFS)]]
+		- [[#Pre-Order Traversal|Pre-Order Traversal]]
+		- [[#In-Order Traversal|In-Order Traversal]]
+		- [[#Post-Order Traversal|Post-Order Traversal]]
+	- [[#Breadth First Search (BFS)|Breadth First Search (BFS)]]
+		- [[#Level Order Traversal|Level Order Traversal]]
 ## 📝Definizione
 Un albero binario è un albero in cui ogni nodo ha al massimo due figli, identificati come figlio sinistro e figlio destro.
 
@@ -28,10 +28,10 @@ Un albero binario è un albero in cui ogni nodo ha al massimo due figli, identif
 ## 🔎 Visita di un albero
 Due strategie per analizzare (visitare) tutti i nodi di un albero:
 
-| Visita in profondità [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Depth-First Search (DFS)\|Depth-First Search (DFS)]]                                                | Visita in ampiezza [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Breadth First Search (BFS)\|Breadth First Search (BFS)]] | 
+| Visita in profondità [[#Depth-First Search (DFS)\|Depth-First Search (DFS)]]                                                | Visita in ampiezza [[#Breadth First Search (BFS)\|Breadth First Search (BFS)]] | 
 | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | Per visitare un albero, si visita ricorsivamente ognuno dei suoi **sottoalberi**                                            | Ogni **livello** dell’albero viene visitato, uno dopo l’altro                  |
-| Tre varianti: [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Pre-Order Traversal\|Pre-Order]], [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#In-Order Traversal\|In-Order]], [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Post-Order Traversal\|Post-Order]] | [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Level Order Traversal\|Level Order Traversal]]                               |
+| Tre varianti: [[#Pre-Order Traversal\|Pre-Order]], [[#In-Order Traversal\|In-Order]], [[#Post-Order Traversal\|Post-Order]] | [[#Level Order Traversal\|Level Order Traversal]]                               |
 | Richiede uno **stack**                                                                                                      | Richiede una **queue**                                                         |
 
 ### Depth-First Search (DFS)
@@ -163,7 +163,7 @@ Possiamo implementarlo sia ricorsivamente sia iterativamente.
 ##### Implementazione ricorsiva
 L'idea è la seguente:
 - Usiamo un for che va da $1$ a  $h$ (l'altezza dell'albero)
-- Ad ogni iterazione, utilizziamo il [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Depth-First Search (DFS)\|Depth-First Search (DFS)]] per attraversare l'albero, mantenendoci l'altezza del nodo corrente.
+- Ad ogni iterazione, utilizziamo il [[#Depth-First Search (DFS)|Depth-First Search (DFS)]] per attraversare l'albero, mantenendoci l'altezza del nodo corrente.
 	- Se il nodo è nullo -> `return`
 	- Se il livello è $1$ siamo arrivati al livello desiderato, quindi stampiamo `tree->data`
 	- Se il livello è maggiore di $1$, allora

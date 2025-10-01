@@ -10,16 +10,16 @@
 
 # Alberi
 ## Indice
-- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#📝 Definizione 1\|📝 Definizione 1]]
-- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#📝 Definizione 2\|📝 Definizione 2]]
-- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#📚 Terminologia\|📚 Terminologia]]
-	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Profondità di un nodo (depth)\|Profondità di un nodo (depth)]]
-	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Livello (level)\|Livello (level)]]
-	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Altezza albero (height)\|Altezza albero (height)]]
-- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#⌨️ Implementazione\|⌨️ Implementazione]]
-	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Realizzazione con vettore dei figli\|Realizzazione con vettore dei figli]]
-	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Realizzazione primo figlio, prossimo fratello\|Realizzazione primo figlio, prossimo fratello]]
-	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Realizzazione con vettore dei padri\|Realizzazione con vettore dei padri]]
+- [[#📝 Definizione 1|📝 Definizione 1]]
+- [[#📝 Definizione 2|📝 Definizione 2]]
+- [[#📚 Terminologia|📚 Terminologia]]
+	- [[#Profondità di un nodo (depth)|Profondità di un nodo (depth)]]
+	- [[#Livello (level)|Livello (level)]]
+	- [[#Altezza albero (height)|Altezza albero (height)]]
+- [[#⌨️ Implementazione|⌨️ Implementazione]]
+	- [[#Realizzazione con vettore dei figli|Realizzazione con vettore dei figli]]
+	- [[#Realizzazione primo figlio, prossimo fratello|Realizzazione primo figlio, prossimo fratello]]
+	- [[#Realizzazione con vettore dei padri|Realizzazione con vettore dei padri]]
 ## 📝 Definizione 1 
 Un albero consiste di un insieme di nodi e un insieme di archi orientati che connettono coppie di nodi, con le seguenti proprietà: 
 - Un nodo dell’albero è designato come nodo radice
