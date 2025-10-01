@@ -1,14 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/projects/deliveroo-js/","created":"2025-03-29T18:20:22.522+01:00","updated":"2025-10-01T02:44:17.521+02:00"}
+{"dg-publish":true,"permalink":"/projects/deliveroo-js/","created":"2025-03-29T18:20:22.522+01:00","updated":"2025-10-01T15:16:48.905+02:00"}
 ---
 
 # Deliveroo.js
 
-[Deliveroo.js](https://github.com/F4bbi/autonomus-software-agents) is a project developed for the **Autonomous Software Agents** course at the University of Trento during the 2024/2025 academic year, by me and Alessandro Sartore.
+[Deliveroo.js](https://github.com/F4bbi/autonomus-software-agents) is a project developed for the Autonomous Software Agents course at the University of Trento during the 2024/2025 academic year, by me and Alessandro Sartore.
 
-The project focuses on implementing an autonomous agent using the **Belief-Desire-Intention (BDI)** model, which enables the agent to perceive its environment, set goals, plan actions, and continuously adapt to dynamic conditions. More about the BDI model [here](https://en.wikipedia.org/wiki/Belief%E2%80%93desire%E2%80%93intention_software_model).
+The project focuses on implementing an autonomous agent using the [Belief-Desire-Intention](https://en.wikipedia.org/wiki/Belief%E2%80%93desire%E2%80%93intention_software_model) model, which enables the agent to perceive its environment, set goals, plan actions, and continuously adapt to dynamic conditions.
 
-The agents operate in a simulated environment where they must **pick up and deliver parcels efficiently**, as illustrated below.
+The agents operate in a simulated environment where they must pick up and deliver parcels efficiently, as illustrated below.
 
 In addition, the project consists of two parts.
 
@@ -20,7 +20,7 @@ A standalone agent that independently explores the environment, updates its beli
 
 ## Multi-Agent
 
-A system of **two cooperating agents** that share information, coordinate strategies, and divide tasks to complete deliveries more effectively.  
+A system of two cooperating agents that share information, coordinate strategies, and divide tasks to complete deliveries more effectively.  
 
 [![Multi-Agent Example|1000](https://github.com/F4bbi/autonomus-software-agents/raw/main/assets/multi_agent.gif)](https://github.com/F4bbi/autonomus-software-agents/blob/main/assets/multi_agent.gif)
 

@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/projects/simulating-tcp-ip-with-rust-and-drones/","created":"2025-03-29T18:10:42.522+01:00","updated":"2025-10-01T03:35:15.894+02:00"}
+{"dg-publish":true,"permalink":"/projects/simulating-tcp-ip-with-rust-and-drones/","created":"2025-03-29T18:10:42.522+01:00","updated":"2025-10-01T15:17:02.663+02:00"}
 ---
 
 # Simulating TCP-IP with Rust and Drones
 
-[This project](https://github.com/F4bbi/a-rust-project-about-drones) was developed as a **team project** for the **Advanced Programming** course at the University of Trento during the 2024/2025 academic year.
+[This project](https://github.com/F4bbi/a-rust-project-about-drones) was developed as a team project for the Advanced Programming course at the University of Trento during the 2024/2025 academic year.
 
 In simple terms, the project is a simulation of how the internet works, but instead of routers, we have drones that can crash or lose packets, just like real drones! Clients can communicate with servers to write and save files, communicate with other clients by creating chats and sending messages.
 
