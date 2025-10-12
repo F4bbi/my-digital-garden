@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/projects/deliveroo-js/","created":"2025-03-29T18:20:22.522+01:00","updated":"2025-10-01T15:16:48.905+02:00"}
+{"dg-publish":true,"permalink":"/projects/deliveroo-js/","created":"2025-03-29T18:20:22.522+01:00","updated":"2025-10-12T23:47:43.963+02:00"}
 ---
 
 # Deliveroo.js
 
-[Deliveroo.js](https://github.com/F4bbi/autonomus-software-agents) is a project developed for the Autonomous Software Agents course at the University of Trento during the 2024/2025 academic year, by me and Alessandro Sartore.
+[Deliveroo.js](https://github.com/F4bbi/autonomus-software-agents) is a project developed for the Autonomous Software Agents course at the University of Trento during the 2024/2025 academic year, by Alessandro Sartore and me.
 
 The project focuses on implementing an autonomous agent using the [Belief-Desire-Intention](https://en.wikipedia.org/wiki/Belief%E2%80%93desire%E2%80%93intention_software_model) model, which enables the agent to perceive its environment, set goals, plan actions, and continuously adapt to dynamic conditions.
 
