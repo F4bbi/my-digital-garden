@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/leet-code-problems/intersection-of-two-sorted-arrays/","created":"2023-01-26T00:34:05.277+01:00","updated":"2023-01-26T00:34:05.277+01:00"}
+{"dg-publish":true,"permalink":"/coding/leet-code-problems/intersection-of-two-sorted-arrays/","created":"2023-01-26T00:34:05.277+01:00","updated":"2023-01-26T00:34:05.277+01:00","dg-note-properties":{}}
 ---
 
 # Intersection of Two Sorted Arrays

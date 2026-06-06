@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/data-structures/trees-in-italian/","created":"2023-01-25T00:09:34.876+01:00","updated":"2023-01-25T00:09:34.876+01:00"}
+{"dg-publish":true,"permalink":"/coding/data-structures/trees-in-italian/","created":"2023-01-25T00:09:34.876+01:00","updated":"2023-01-25T00:09:34.876+01:00","dg-note-properties":{}}
 ---
 
 
@@ -10,16 +10,16 @@
 
 # Alberi
 ## Indice
-- [[#📝 Definizione 1|📝 Definizione 1]]
-- [[#📝 Definizione 2|📝 Definizione 2]]
-- [[#📚 Terminologia|📚 Terminologia]]
-	- [[#Profondità di un nodo (depth)|Profondità di un nodo (depth)]]
-	- [[#Livello (level)|Livello (level)]]
-	- [[#Altezza albero (height)|Altezza albero (height)]]
-- [[#⌨️ Implementazione|⌨️ Implementazione]]
-	- [[#Realizzazione con vettore dei figli|Realizzazione con vettore dei figli]]
-	- [[#Realizzazione primo figlio, prossimo fratello|Realizzazione primo figlio, prossimo fratello]]
-	- [[#Realizzazione con vettore dei padri|Realizzazione con vettore dei padri]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#📝 Definizione 1\|📝 Definizione 1]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#📝 Definizione 2\|📝 Definizione 2]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#📚 Terminologia\|📚 Terminologia]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Profondità di un nodo (depth)\|Profondità di un nodo (depth)]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Livello (level)\|Livello (level)]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Altezza albero (height)\|Altezza albero (height)]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#⌨️ Implementazione\|⌨️ Implementazione]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Realizzazione con vettore dei figli\|Realizzazione con vettore dei figli]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Realizzazione primo figlio, prossimo fratello\|Realizzazione primo figlio, prossimo fratello]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Trees (in italian)#Realizzazione con vettore dei padri\|Realizzazione con vettore dei padri]]
 ## 📝 Definizione 1 
 Un albero consiste di un insieme di nodi e un insieme di archi orientati che connettono coppie di nodi, con le seguenti proprietà: 
 - Un nodo dell’albero è designato come nodo radice
@@ -46,7 +46,7 @@ La profondità massima della sue foglie.
 Esistono diversi modi per memorizzare un albero, più o meno indicati a seconda del numero massimo e medio di figli presenti.
 
 ### Realizzazione con vettore dei figli 
-![ImplVettoreFigli.png|500](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/ImplVettoreFigli.png)
+![ImplVettoreFigli.png\|500](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/ImplVettoreFigli.png)
 
 **Campi memorizzati nei nodi:** 
 - _parent_: reference al nodo padre 
@@ -54,11 +54,11 @@ Esistono diversi modi per memorizzare un albero, più o meno indicati a seconda 
 ### Realizzazione primo figlio, prossimo fratello 
 Implementato come una lista di fratelli
 
-![ImplListaFigli.png|500](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/ImplListaFigli.png)
+![ImplListaFigli.png\|500](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/ImplListaFigli.png)
 ### Realizzazione con vettore dei padri
 L’albero è rappresentato da un vettore i cui elementi contengono il valore associato al nodo e l’indice della posizione del padre nel vettore.
 
-![ImplVettorePadri.png|500](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/ImplVettorePadri.png)
+![ImplVettorePadri.png\|500](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/ImplVettorePadri.png)
 
 Per ogni nodo in posizione $i$ nel vettore:
 - Il figlio sinistro si trova nella posizione $2 \cdot i + 1$

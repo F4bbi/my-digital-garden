@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/manim-dsa/","created":"2025-03-29T18:10:11.635+01:00","updated":"2026-06-05T15:43:35.389+02:00"}
+{"dg-publish":true,"permalink":"/projects/manim-dsa/","created":"2025-03-29T18:10:11.635+01:00","updated":"2026-06-05T15:43:35.389+02:00","dg-note-properties":{}}
 ---
 
 # Manim DSA

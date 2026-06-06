@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/insiemi-equipotenti-e-cardinalita/","created":"2023-01-23T16:26:40.663+01:00","updated":"2023-01-23T16:26:40.663+01:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/insiemi-equipotenti-e-cardinalita/","created":"2023-01-23T16:26:40.663+01:00","updated":"2023-01-23T16:26:40.663+01:00","dg-note-properties":{}}
 ---
 
 # Insiemi equipotenti e cardinalità

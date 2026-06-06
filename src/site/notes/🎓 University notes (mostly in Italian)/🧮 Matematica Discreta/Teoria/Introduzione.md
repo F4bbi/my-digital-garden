@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/introduzione/","created":"2024-09-13T09:27:55.284+02:00","updated":"2024-09-13T09:27:55.284+02:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/introduzione/","created":"2024-09-13T09:27:55.284+02:00","updated":"2024-09-13T09:27:55.284+02:00","dg-note-properties":{}}
 ---
 
 # Introduzione

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/funzione-di-probabilita-continua/","created":"2023-01-23T01:46:49.016+01:00","updated":"2023-01-23T01:46:49.016+01:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/funzione-di-probabilita-continua/","created":"2023-01-23T01:46:49.016+01:00","updated":"2023-01-23T01:46:49.016+01:00","dg-note-properties":{}}
 ---
 
 # Funzione di probabilità continua

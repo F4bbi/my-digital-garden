@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/linguaggi-formali-e-compilatori/riassunto/","created":"2025-12-30T10:00:45.506+01:00","updated":"2026-06-05T18:02:12.870+02:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/linguaggi-formali-e-compilatori/riassunto/","created":"2025-12-30T10:00:45.506+01:00","updated":"2026-06-05T18:02:12.870+02:00","dg-note-properties":{}}
 ---
 
 # Riassunto

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/data-structures/binary-search-trees-in-italian/","created":"2023-01-25T00:09:14.775+01:00","updated":"2023-01-25T00:09:14.775+01:00"}
+{"dg-publish":true,"permalink":"/coding/data-structures/binary-search-trees-in-italian/","created":"2023-01-25T00:09:14.775+01:00","updated":"2023-01-25T00:09:14.775+01:00","dg-note-properties":{}}
 ---
 
 
@@ -10,15 +10,15 @@
 
 # Alberi binari di ricerca
 ## Indice
-- [[#📝 Definizione|📝 Definizione]]
-- [[#➗ Operazioni|➗ Operazioni]]
-	- [[#🔎 Ricerca|🔎 Ricerca]]
-	- [[#➕ Inserimento|➕ Inserimento]]
-	- [[#◀️ Minimo|◀️ Minimo]]
-	- [[#▶️ Massimo|▶️ Massimo]]
-	- [[#Successore di un nodo|Successore di un nodo]]
-	- [[#Predecessore di un nodo|Predecessore di un nodo]]
-	- [[#❌ Rimozione|❌ Rimozione]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Search Trees (in italian)#📝 Definizione\|📝 Definizione]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Search Trees (in italian)#➗ Operazioni\|➗ Operazioni]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Search Trees (in italian)#🔎 Ricerca\|🔎 Ricerca]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Search Trees (in italian)#➕ Inserimento\|➕ Inserimento]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Search Trees (in italian)#◀️ Minimo\|◀️ Minimo]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Search Trees (in italian)#▶️ Massimo\|▶️ Massimo]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Search Trees (in italian)#Successore di un nodo\|Successore di un nodo]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Search Trees (in italian)#Predecessore di un nodo\|Predecessore di un nodo]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Search Trees (in italian)#❌ Rimozione\|❌ Rimozione]]
 ## 📝 Definizione
 Un albero binario di ricerca è un albero binario nel quale ogni nodo rispetta una specifica proprietà di ordinamento:
 `figli nel sottoalbero sinistro <= nodo < figli nel sottoalbero destro`. Questo deve essere vero per ogni nodo.
@@ -340,7 +340,7 @@ Tree successor(Tree t) {
 ### Predecessore di un nodo
 Il predecessore di un nodo $u$ è il più grande nodo minore di $u$.
 
-Potrei scrivere "Vedi [[#Successore di un nodo]]" visto che è la stessa cosa, ma visto che fortunatamente esiste il copia-incolla lo descriverò lo stesso.
+Potrei scrivere "Vedi [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Search Trees (in italian)#Successore di un nodo\|#Successore di un nodo]]" visto che è la stessa cosa, ma visto che fortunatamente esiste il copia-incolla lo descriverò lo stesso.
 
 Ci sono essenzialmente 4 casi che possono capitare quando si cerca il predecessore di un nodo.
 In tutti gli esempi il nodo blu è il nodo $u$ scelto, il nodo rosso il predecessore.

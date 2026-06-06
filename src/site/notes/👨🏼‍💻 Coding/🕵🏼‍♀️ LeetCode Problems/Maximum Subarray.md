@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/leet-code-problems/maximum-subarray/","created":"2023-01-26T00:34:26.574+01:00","updated":"2023-01-26T00:34:26.574+01:00"}
+{"dg-publish":true,"permalink":"/coding/leet-code-problems/maximum-subarray/","created":"2023-01-26T00:34:26.574+01:00","updated":"2023-01-26T00:34:26.574+01:00","dg-note-properties":{}}
 ---
 
 # Maximum Subarray

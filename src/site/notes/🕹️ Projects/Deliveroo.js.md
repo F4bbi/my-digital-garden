@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/deliveroo-js/","created":"2025-03-29T18:20:22.522+01:00","updated":"2025-10-12T23:47:43.963+02:00"}
+{"dg-publish":true,"permalink":"/projects/deliveroo-js/","created":"2025-03-29T18:20:22.522+01:00","updated":"2025-10-12T23:47:43.963+02:00","dg-note-properties":{}}
 ---
 
 # Deliveroo.js

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/linguaggi-di-programmazione/c/","created":"2024-10-02T19:53:14.887+02:00","updated":"2026-06-06T10:06:48.792+02:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/linguaggi-di-programmazione/c/","created":"2024-10-02T19:53:14.887+02:00","updated":"2026-06-06T10:06:48.792+02:00","dg-note-properties":{}}
 ---
 
 # C++

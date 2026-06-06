@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-4-partition/","created":"2023-01-25T15:42:17.796+01:00","updated":"2023-01-25T15:42:17.796+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-4-partition/","created":"2023-01-25T15:42:17.796+01:00","updated":"2023-01-25T15:42:17.796+01:00","dg-note-properties":{}}
 ---
 
 # Chapter 2 - Problem 4 - Partition

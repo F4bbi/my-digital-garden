@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/formulario/","created":"2023-01-23T17:46:07.041+01:00","updated":"2023-01-23T17:46:07.041+01:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/formulario/","created":"2023-01-23T17:46:07.041+01:00","updated":"2023-01-23T17:46:07.041+01:00","dg-note-properties":{}}
 ---
 
 # Formulario di Probabilità e Statistica

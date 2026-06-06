@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-4-palindrome-permutation/","created":"2023-10-25T18:39:32.527+02:00","updated":"2023-10-25T18:39:32.527+02:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-4-palindrome-permutation/","created":"2023-10-25T18:39:32.527+02:00","updated":"2023-10-25T18:39:32.527+02:00","dg-note-properties":{}}
 ---
 
 # Chapter 1 - Problem 4 - Palindrome Permutation

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/data-structures/binary-trees-in-italian/","created":"2023-01-25T00:09:15.933+01:00","updated":"2023-01-25T00:09:15.933+01:00"}
+{"dg-publish":true,"permalink":"/coding/data-structures/binary-trees-in-italian/","created":"2023-01-25T00:09:15.933+01:00","updated":"2023-01-25T00:09:15.933+01:00","dg-note-properties":{}}
 ---
 
 
@@ -10,28 +10,28 @@
 
 # Alberi binari
 ## Indice
-- [[#📝Definizione|📝Definizione]]
-- [[#🔎 Visita di un albero|🔎 Visita di un albero]]
-	- [[#Depth-First Search (DFS)|Depth-First Search (DFS)]]
-		- [[#Pre-Order Traversal|Pre-Order Traversal]]
-		- [[#In-Order Traversal|In-Order Traversal]]
-		- [[#Post-Order Traversal|Post-Order Traversal]]
-	- [[#Breadth First Search (BFS)|Breadth First Search (BFS)]]
-		- [[#Level Order Traversal|Level Order Traversal]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#📝Definizione\|📝Definizione]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#🔎 Visita di un albero\|🔎 Visita di un albero]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Depth-First Search (DFS)\|Depth-First Search (DFS)]]
+		- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Pre-Order Traversal\|Pre-Order Traversal]]
+		- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#In-Order Traversal\|In-Order Traversal]]
+		- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Post-Order Traversal\|Post-Order Traversal]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Breadth First Search (BFS)\|Breadth First Search (BFS)]]
+		- [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Level Order Traversal\|Level Order Traversal]]
 ## 📝Definizione
 Un albero binario è un albero in cui ogni nodo ha al massimo due figli, identificati come figlio sinistro e figlio destro.
 
 **Nota**: Due alberi $T$ e $U$ che hanno gli stessi nodi, gli stessi figli per ogni nodo e la stessa radice, sono distinti qualora un nodo $u$ sia designato come figlio sinistro in $T$ e come figlio destro in $U$.
 **Per esempio, i seguenti due alberi binari sono diversi:**
 
-![AlberoBinario.png|500](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/AlberoBinario.png)
+![AlberoBinario.png\|500](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/AlberoBinario.png)
 ## 🔎 Visita di un albero
 Due strategie per analizzare (visitare) tutti i nodi di un albero:
 
-| Visita in profondità [[#Depth-First Search (DFS)\|Depth-First Search (DFS)]]                                                | Visita in ampiezza [[#Breadth First Search (BFS)\|Breadth First Search (BFS)]] | 
+| Visita in profondità [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Depth-First Search (DFS)\|Depth-First Search (DFS)]]                                                | Visita in ampiezza [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Breadth First Search (BFS)\|Breadth First Search (BFS)]] | 
 | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | Per visitare un albero, si visita ricorsivamente ognuno dei suoi **sottoalberi**                                            | Ogni **livello** dell’albero viene visitato, uno dopo l’altro                  |
-| Tre varianti: [[#Pre-Order Traversal\|Pre-Order]], [[#In-Order Traversal\|In-Order]], [[#Post-Order Traversal\|Post-Order]] | [[#Level Order Traversal\|Level Order Traversal]]                               |
+| Tre varianti: [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Pre-Order Traversal\|Pre-Order]], [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#In-Order Traversal\|In-Order]], [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Post-Order Traversal\|Post-Order]] | [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Level Order Traversal\|Level Order Traversal]]                               |
 | Richiede uno **stack**                                                                                                      | Richiede una **queue**                                                         |
 
 ### Depth-First Search (DFS)
@@ -163,7 +163,7 @@ Possiamo implementarlo sia ricorsivamente sia iterativamente.
 ##### Implementazione ricorsiva
 L'idea è la seguente:
 - Usiamo un for che va da $1$ a  $h$ (l'altezza dell'albero)
-- Ad ogni iterazione, utilizziamo il [[#Depth-First Search (DFS)|Depth-First Search (DFS)]] per attraversare l'albero, mantenendoci l'altezza del nodo corrente.
+- Ad ogni iterazione, utilizziamo il [[👨🏼‍💻 Coding/🏗 Data Structures/Binary Trees (in italian)#Depth-First Search (DFS)\|Depth-First Search (DFS)]] per attraversare l'albero, mantenendoci l'altezza del nodo corrente.
 	- Se il nodo è nullo -> `return`
 	- Se il livello è $1$ siamo arrivati al livello desiderato, quindi stampiamo `tree->data`
 	- Se il livello è maggiore di $1$, allora

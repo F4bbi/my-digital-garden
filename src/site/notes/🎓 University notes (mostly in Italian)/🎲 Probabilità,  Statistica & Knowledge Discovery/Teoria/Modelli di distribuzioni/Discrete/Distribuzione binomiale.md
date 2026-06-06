@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/modelli-di-distribuzioni/discrete/distribuzione-binomiale/","created":"2023-01-23T10:43:16.455+01:00","updated":"2023-01-23T10:43:16.455+01:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/modelli-di-distribuzioni/discrete/distribuzione-binomiale/","created":"2023-01-23T10:43:16.455+01:00","updated":"2023-01-23T10:43:16.455+01:00","dg-note-properties":{}}
 ---
 
 # Distribuzione Binomiale

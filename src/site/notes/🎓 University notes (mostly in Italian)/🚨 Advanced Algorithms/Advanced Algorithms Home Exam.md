@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/advanced-algorithms/advanced-algorithms-home-exam/","created":"2026-01-01T18:15:25.987+01:00","updated":"2026-06-06T10:42:57.257+02:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/advanced-algorithms/advanced-algorithms-home-exam/","created":"2026-01-01T18:15:25.987+01:00","updated":"2026-06-06T10:42:57.257+02:00","dg-note-properties":{}}
 ---
 
 # Advanced Algorithms Home Exam
 
-You can find the assignment description [[advalgexam2025.pdf|here]].
+You can find the assignment description [here](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%F0%9F%9A%A8%20Advanced%20Algorithms/advalgexam2025.pdf).
 
 ## Solution
 
@@ -371,7 +371,7 @@ Thus, the approximation ratio becomes dominated by the second term. This confirm
 
 One might consider adopting simple heuristics for external edge selection, such as deterministically choosing the external edge with the minimum weight or approximating a cluster as a single centroid for a TSP solver. However, these approaches often fail because they ignore the internal topology of the cluster.
 
-![Pasted image 20260110181315.png|600](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%F0%9F%9A%A8%20Advanced%20Algorithms/_images/Pasted%20image%2020260110181315.png)
+![Pasted image 20260110181315.png\|600](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%F0%9F%9A%A8%20Advanced%20Algorithms/_images/Pasted%20image%2020260110181315.png)
 <i>Figure 4: An adversarial graph instance with 3 clusters and 3 external edges</i>
 
 Consider the scenario depicted in Figure 4 with three clusters $C_1, C_2, C_3$. There are two external edges connecting $C_1$ to $C_2$: a "cheap" edge with cost 1 and an "expensive" edge with cost 10. A greedy approach might deterministically select the edge with cost 1 to minimize the immediate travel cost. However, this decision ignores the subsequent requirement to reach $C_3$. If the cheap edge leads to an entry point in $C_2$ that is far from the connection to $C_3$, the path is forced to traverse the entire length of the cluster to reach the exit point. This internal traversal could incur a travel cost significantly higher than the initial savings. Conversely, choosing the "expensive" edge might lead to a node directly adjacent to the exit for $C_3$, thereby eliminating the need for internal traversal and resulting in a lower global cost.

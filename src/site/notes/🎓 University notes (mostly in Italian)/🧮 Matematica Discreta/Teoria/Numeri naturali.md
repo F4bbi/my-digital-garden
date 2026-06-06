@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/numeri-naturali/","created":"2023-04-24T18:34:10.862+02:00","updated":"2026-06-06T10:20:20.773+02:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/numeri-naturali/","created":"2023-04-24T18:34:10.862+02:00","updated":"2026-06-06T10:20:20.773+02:00","dg-note-properties":{}}
 ---
 
 # Numeri naturali

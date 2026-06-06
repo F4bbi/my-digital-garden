@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/this-website/","created":"2025-03-29T18:12:06.367+01:00","updated":"2025-10-01T15:16:04.947+02:00"}
+{"dg-publish":true,"permalink":"/projects/this-website/","created":"2025-03-29T18:12:06.367+01:00","updated":"2025-10-01T15:16:04.947+02:00","dg-note-properties":{}}
 ---
 
 # This website

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/start-hack-2025/","created":"2025-03-29T18:10:30.904+01:00","updated":"2026-06-06T11:06:00.049+02:00"}
+{"dg-publish":true,"permalink":"/projects/start-hack-2025/","created":"2025-03-29T18:10:30.904+01:00","updated":"2026-06-06T11:06:00.049+02:00","dg-note-properties":{}}
 ---
 
 # START Hack 2025

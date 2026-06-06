@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-2-return-kth-to-last/","created":"2023-10-25T21:26:28.385+02:00","updated":"2023-10-25T21:26:28.385+02:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-2-return-kth-to-last/","created":"2023-10-25T21:26:28.385+02:00","updated":"2023-10-25T21:26:28.385+02:00","dg-note-properties":{}}
 ---
 
 # Chapter 2 - Problem 2 - Return Kth to Last

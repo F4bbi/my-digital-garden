@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/esercizi-sul-principio-di-induzione/appello-11-febbraio-2016/","created":"2023-01-24T00:41:38.555+01:00","updated":"2023-01-24T00:41:38.555+01:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/esercizi-sul-principio-di-induzione/appello-11-febbraio-2016/","created":"2023-01-24T00:41:38.555+01:00","updated":"2023-01-24T00:41:38.555+01:00","dg-note-properties":{}}
 ---
 
 # Esercizio (Appello 11 Febbraio 2016)

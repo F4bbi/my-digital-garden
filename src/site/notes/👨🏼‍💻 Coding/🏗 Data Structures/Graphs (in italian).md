@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/data-structures/graphs-in-italian/","created":"2023-01-25T00:09:24.849+01:00","updated":"2023-01-25T00:09:24.849+01:00"}
+{"dg-publish":true,"permalink":"/coding/data-structures/graphs-in-italian/","created":"2023-01-25T00:09:24.849+01:00","updated":"2023-01-25T00:09:24.849+01:00","dg-note-properties":{}}
 ---
 
 
@@ -10,20 +10,20 @@
 
 # Grafi
 ## Indice
-- [[#➡️ Grafo orientato (directed)|➡️ Grafo orientato (directed)]]
-- [[#↔️ Grafo non orientato (undirected)|↔️ Grafo non orientato (undirected)]]
-- [[#⚙️ Proprietà dei grafi|⚙️ Proprietà dei grafi]]
-- [[#⌨️ Implementazione|⌨️ Implementazione]]
-	- [[#Matrici di adiacenza|Matrici di adiacenza]]
-	- [[#Liste di adiacenza|Liste di adiacenza]]
-- [[#🔎 Visita di un grafo|🔎 Visita di un grafo]]
-	- [[#Visita in ampiezza Breadth First Search (BFS)|Visita in ampiezza Breadth First Search (BFS)]]
-		- [[#🔢 Numero di Erdos|🔢 Numero di Erdos]]
-	- [[#Visita in profondità Depth-First Search (DFS)|Visita in profondità Depth-First Search (DFS)]]
-- [[#📝 Definizioni|📝 Definizioni]]
-	- [[#🔄 Cicli|🔄 Cicli]]
-	- [[#📶 Ordinamento topologico|📶 Ordinamento topologico]]
-	- [[#🔗 Componenti connesse e fortemente connesse|🔗 Componenti connesse e fortemente connesse]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#➡️ Grafo orientato (directed)\|➡️ Grafo orientato (directed)]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#↔️ Grafo non orientato (undirected)\|↔️ Grafo non orientato (undirected)]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#⚙️ Proprietà dei grafi\|⚙️ Proprietà dei grafi]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#⌨️ Implementazione\|⌨️ Implementazione]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#Matrici di adiacenza\|Matrici di adiacenza]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#Liste di adiacenza\|Liste di adiacenza]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#🔎 Visita di un grafo\|🔎 Visita di un grafo]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#Visita in ampiezza Breadth First Search (BFS)\|Visita in ampiezza Breadth First Search (BFS)]]
+		- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#🔢 Numero di Erdos\|🔢 Numero di Erdos]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#Visita in profondità Depth-First Search (DFS)\|Visita in profondità Depth-First Search (DFS)]]
+- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#📝 Definizioni\|📝 Definizioni]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#🔄 Cicli\|🔄 Cicli]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#📶 Ordinamento topologico\|📶 Ordinamento topologico]]
+	- [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#🔗 Componenti connesse e fortemente connesse\|🔗 Componenti connesse e fortemente connesse]]
 ## ➡️ Grafo orientato (directed)
 È una coppia $G = (V, E)$ dove: 
 - $V$ è un insieme di nodi (node) o vertici (vertex) 
@@ -100,13 +100,13 @@ Complessità di algoritmi su grafi:
 ## ⌨️ Implementazione
 ### Matrici di adiacenza
 Utilizziamo una matrice per implementare il grafo, ogni cella ha la seguente regola:
-$
+$$
 m_{uv} =
 \begin{cases}
 1 &(u,v) \in E \\ \\
 0 &(u,v) \notin E 
 \end{cases}
-$
+$$
 #### Grafi orientati
 Utilizziamo l'intera matrice, lo spazio utilizzato sarà $n^2$ bit.
 
@@ -346,17 +346,17 @@ void DFS(vector<vector<int>>& graph) {
 
 _Esempio:_
 
-![TopologicalSort.png|700](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/TopologicalSort.png)
+![TopologicalSort.png\|700](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%E2%9A%99%EF%B8%8F%20Algoritmi%20e%20Strutture%20Dati/_images/TopologicalSort.png)
 
 &nbsp;
 - **Grafo trasposto:**
 	- Dato un grafo orientato $G = (V, E)$, il grafo trasposto $G^T = (V, E^T)$ ha gli stessi nodi e gli archi orientati in senso opposto: $E^T = \{(u, v) | (v, u) ∈ E\}$
 
 ## 🔄 Cicli
-Dopo aver dato una [[#📝 Definizioni|definizione di ciclo]], vediamo come implementare una funzione per determinarne se è presente un ciclo in un determinato grafo.
+Dopo aver dato una [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#📝 Definizioni\|definizione di ciclo]], vediamo come implementare una funzione per determinarne se è presente un ciclo in un determinato grafo.
 
 ### Grafi non orientati
-Per i grafi non orientati è sufficiente eseguire un [[#Visita in profondità Depth-First Search DFS|DFS]] facendo attenzione a non visitare nuovamente il nodo da cui si era arrivati, altrimenti verrebbe generato un falso positivo.
+Per i grafi non orientati è sufficiente eseguire un [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#Visita in profondità Depth-First Search DFS\|DFS]] facendo attenzione a non visitare nuovamente il nodo da cui si era arrivati, altrimenti verrebbe generato un falso positivo.
 #### Implementazione
 ```cpp
 bool hasCycle(vector<vector<int> >& undirected_graph) {
@@ -442,7 +442,7 @@ bool hasCycleHelper(vector<vector<int> >& directed_graph, int node, int& time, v
 - Space complexity: $O(n)$ 
 
 ## 📶 Ordinamento topologico
-Dopo aver dato una  [[#📝 Definizioni|definizione di ordinamento topologico]], vediamo come implementare una funzione per determinare l'ordinamento topologico di un grafo.
+Dopo aver dato una  [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#📝 Definizioni\|definizione di ordinamento topologico]], vediamo come implementare una funzione per determinare l'ordinamento topologico di un grafo.
 
 ### Grafi orientati
 L'output sarà una sequenza dei nodi, ordinati per tempo decrescente di fine. Ricordiamo che se il grafo contiene un ciclo, non esiste un ordinamento topologico.
@@ -476,11 +476,11 @@ void ts_DFS(vector<vector<int> >& directed_graph, int node, stack<int>& stack, v
 - Space complexity: $O(n)$ 
 
 ## 🔗 Componenti connesse e fortemente connesse
-Dopo aver dato una  [[#📝 Definizioni|definizione di componente connessa e fortemente connessa]], vediamo come implementare una funzione per determinarne il numero in un grafo.
+Dopo aver dato una  [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#📝 Definizioni\|definizione di componente connessa e fortemente connessa]], vediamo come implementare una funzione per determinarne il numero in un grafo.
 
 ### Grafi non orientati
 #### Implementazione
-Effettuiamo la [[#Visita in profondità Depth-First Search DFS|DFS]] di ogni nodo ma quando un nodo non era stato scoperto incrementiamo il contatore. Alla fine esso sarà il numero di componenti connesse. Per ogni nodo il vettore `id` restituisce il numero di componente connessa a cui il nodo appartiene.
+Effettuiamo la [[👨🏼‍💻 Coding/🏗 Data Structures/Graphs (in italian)#Visita in profondità Depth-First Search DFS\|DFS]] di ogni nodo ma quando un nodo non era stato scoperto incrementiamo il contatore. Alla fine esso sarà il numero di componenti connesse. Per ogni nodo il vettore `id` restituisce il numero di componente connessa a cui il nodo appartiene.
 
 ```cpp
 int connectedComponents(vector<vector<int> >& undirected_graph) {

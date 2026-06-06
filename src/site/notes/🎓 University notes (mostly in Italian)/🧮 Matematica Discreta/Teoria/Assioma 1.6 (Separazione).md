@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/assioma-1-6-separazione/","created":"2023-01-23T16:25:30.258+01:00","updated":"2023-01-23T16:25:30.258+01:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/assioma-1-6-separazione/","created":"2023-01-23T16:25:30.258+01:00","updated":"2023-01-23T16:25:30.258+01:00","dg-note-properties":{}}
 ---
 
 # Assioma 1.6 (Separazione)

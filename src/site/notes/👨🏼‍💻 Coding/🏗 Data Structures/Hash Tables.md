@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/data-structures/hash-tables/","created":"2023-01-23T01:31:47.400+01:00","updated":"2023-01-23T01:31:47.400+01:00"}
+{"dg-publish":true,"permalink":"/coding/data-structures/hash-tables/","created":"2023-01-23T01:31:47.400+01:00","updated":"2023-01-23T01:31:47.400+01:00","dg-note-properties":{}}
 ---
 
 # Hash Tables

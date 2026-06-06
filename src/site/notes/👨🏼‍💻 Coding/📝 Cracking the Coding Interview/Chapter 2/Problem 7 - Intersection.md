@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-7-intersection/","created":"2023-01-26T00:36:01.796+01:00","updated":"2023-01-26T00:36:01.796+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-2/problem-7-intersection/","created":"2023-01-26T00:36:01.796+01:00","updated":"2023-01-26T00:36:01.796+01:00","dg-note-properties":{}}
 ---
 
 # Chapter 2 - Problem 7 - Intersection

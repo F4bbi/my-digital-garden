@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/variabili-aleatorie-doppie-continue/","created":"2023-01-23T01:48:59.992+01:00","updated":"2023-01-23T01:48:59.992+01:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/variabili-aleatorie-doppie-continue/","created":"2023-01-23T01:48:59.992+01:00","updated":"2023-01-23T01:48:59.992+01:00","dg-note-properties":{}}
 ---
 
 # Variabili aleatorie doppie continue

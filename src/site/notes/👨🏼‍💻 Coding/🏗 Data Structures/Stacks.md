@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/data-structures/stacks/","created":"2023-01-25T00:35:15.802+01:00","updated":"2023-01-25T00:35:15.802+01:00"}
+{"dg-publish":true,"permalink":"/coding/data-structures/stacks/","created":"2023-01-25T00:35:15.802+01:00","updated":"2023-01-25T00:35:15.802+01:00","dg-note-properties":{}}
 ---
 
 # Stacks

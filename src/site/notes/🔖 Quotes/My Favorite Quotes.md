@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/quotes/my-favorite-quotes/","created":"2025-04-06T15:48:58.993+02:00","updated":"2026-02-14T18:00:50.633+01:00"}
+{"dg-publish":true,"permalink":"/quotes/my-favorite-quotes/","created":"2025-04-06T15:48:58.993+02:00","updated":"2026-02-14T18:00:50.633+01:00","dg-note-properties":{}}
 ---
 
 # My Favorite Quotes

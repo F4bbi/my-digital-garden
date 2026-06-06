@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/linguaggi-di-programmazione/java/","created":"2024-10-02T19:53:21.500+02:00","updated":"2026-06-06T10:06:58.741+02:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/linguaggi-di-programmazione/java/","created":"2024-10-02T19:53:21.500+02:00","updated":"2026-06-06T10:06:58.741+02:00","dg-note-properties":{}}
 ---
 
 # Java

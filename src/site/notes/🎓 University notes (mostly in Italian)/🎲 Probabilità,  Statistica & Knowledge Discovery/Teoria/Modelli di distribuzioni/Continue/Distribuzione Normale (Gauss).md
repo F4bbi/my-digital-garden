@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/modelli-di-distribuzioni/continue/distribuzione-normale-gauss/","created":"2023-01-23T10:43:06.397+01:00","updated":"2023-01-23T10:43:06.397+01:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/modelli-di-distribuzioni/continue/distribuzione-normale-gauss/","created":"2023-01-23T10:43:06.397+01:00","updated":"2023-01-23T10:43:06.397+01:00","dg-note-properties":{}}
 ---
 
 # Distribuzione Normale

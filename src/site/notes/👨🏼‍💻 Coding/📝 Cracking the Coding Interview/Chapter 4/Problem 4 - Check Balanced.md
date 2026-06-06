@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-4-check-balanced/","created":"2023-02-21T09:51:44.332+01:00","updated":"2023-02-21T09:51:44.332+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-4-check-balanced/","created":"2023-02-21T09:51:44.332+01:00","updated":"2023-02-21T09:51:44.332+01:00","dg-note-properties":{}}
 ---
 
 # Chapter 4 - Problem 4 - Check Balanced

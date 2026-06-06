@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/modelli-di-distribuzioni/continue/distribuzione-esponenziale/","created":"2023-01-23T11:15:20.059+01:00","updated":"2023-01-23T11:15:20.059+01:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/probabilita-statistica-and-knowledge-discovery/teoria/modelli-di-distribuzioni/continue/distribuzione-esponenziale/","created":"2023-01-23T11:15:20.059+01:00","updated":"2023-01-23T11:15:20.059+01:00","dg-note-properties":{}}
 ---
 
 # Distribuzione Esponenziale

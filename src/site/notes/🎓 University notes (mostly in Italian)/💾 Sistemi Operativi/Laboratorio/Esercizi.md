@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/sistemi-operativi/laboratorio/esercizi/","created":"2023-06-24T14:45:16.410+02:00","updated":"2023-06-24T14:45:16.410+02:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/sistemi-operativi/laboratorio/esercizi/","created":"2023-06-24T14:45:16.410+02:00","updated":"2023-06-24T14:45:16.410+02:00","dg-note-properties":{}}
 ---
 
 # Esercizi riguardanti [[🎓 University notes (mostly in Italian)/💾 Sistemi Operativi/Laboratorio/1. Terminale & Bash\|1. Terminale & Bash]]

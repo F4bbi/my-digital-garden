@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/advanced-algorithms/approximation-algorithms/","created":"2025-11-07T17:45:12.559+01:00","updated":"2026-06-06T10:42:59.900+02:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/advanced-algorithms/approximation-algorithms/","created":"2025-11-07T17:45:12.559+01:00","updated":"2026-06-06T10:42:59.900+02:00","dg-note-properties":{}}
 ---
 
 # Approximation Algorithms (or “My Problem is NP-Complete — Now What?”)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/simulating-tcp-ip-with-rust-and-drones/","created":"2025-03-29T18:10:42.522+01:00","updated":"2025-10-01T15:17:02.663+02:00"}
+{"dg-publish":true,"permalink":"/projects/simulating-tcp-ip-with-rust-and-drones/","created":"2025-03-29T18:10:42.522+01:00","updated":"2025-10-01T15:17:02.663+02:00","dg-note-properties":{}}
 ---
 
 # Simulating TCP-IP with Rust and Drones

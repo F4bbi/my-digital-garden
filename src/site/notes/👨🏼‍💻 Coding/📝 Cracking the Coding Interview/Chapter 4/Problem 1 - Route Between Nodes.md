@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-1-route-between-nodes/","created":"2023-01-29T19:06:37.139+01:00","updated":"2023-01-29T19:06:37.139+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-4/problem-1-route-between-nodes/","created":"2023-01-29T19:06:37.139+01:00","updated":"2023-01-29T19:06:37.139+01:00","dg-note-properties":{}}
 ---
 
 # Chapter 4 - Problem 1 - Route Between Nodes

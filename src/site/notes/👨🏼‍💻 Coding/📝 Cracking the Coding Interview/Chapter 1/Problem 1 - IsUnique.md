@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-1-is-unique/","created":"2023-01-24T11:50:52.904+01:00","updated":"2023-01-24T11:50:52.904+01:00"}
+{"dg-publish":true,"permalink":"/coding/cracking-the-coding-interview/chapter-1/problem-1-is-unique/","created":"2023-01-24T11:50:52.904+01:00","updated":"2023-01-24T11:50:52.904+01:00","dg-note-properties":{}}
 ---
 
 # Chapter 1 - Problem 1 - IsUnique
