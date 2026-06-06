@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2024-09-06T12:00:39.098+02:00","updated":"2026-06-05T15:51:49.400+02:00"}
 ---
 
-![Minì.jpg|400](/img/user/%F0%9F%93%92%20Personal/Video-Photo/Min%C3%AC.jpg)
+![Minì.jpg|400](/img/user/Min%C3%AC.jpg)
 $$\huge{\text{Hi!}}$$
 
 My name is Fabio and that cute creature you see up there is my cat, Minì. 🥰
