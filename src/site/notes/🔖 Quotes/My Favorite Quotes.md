@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/quotes/my-favorite-quotes/","created":"2025-04-06T15:48:58.993+02:00","updated":"2026-02-14T18:00:50.633+01:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/quotes/my-favorite-quotes/","created":"2025-04-06T15:48:58.993+02:00","updated":"2026-06-06T15:12:54.161+02:00","dg-note-properties":{}}
 ---
 
 # My Favorite Quotes
@@ -66,5 +66,5 @@ The optimism bias makes people more successful, it's the only positive bias amon
 
 ## Quote 3
 
-[Mr. RIP mission described on his Notion.](https://mrrip.notion.site/Mission-Filosofia-Valori-e-Temi-che-tratto-mr-rip-mission-6a6fea1ff8674ee2857a0a9ef3279926)
+[Cercate di vivere una vita bella, significativa ed intenzionale...](https://mrrip.notion.site/Mission-Filosofia-Valori-e-Temi-che-tratto-mr-rip-mission-6a6fea1ff8674ee2857a0a9ef3279926)
 
