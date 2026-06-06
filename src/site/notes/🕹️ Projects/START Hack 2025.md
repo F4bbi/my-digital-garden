@@ -1,14 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/projects/start-hack-2025/","created":"2025-03-29T18:10:30.904+01:00","updated":"2025-10-01T15:15:39.053+02:00"}
+{"dg-publish":true,"permalink":"/projects/start-hack-2025/","created":"2025-03-29T18:10:30.904+01:00","updated":"2026-06-06T11:06:00.049+02:00"}
 ---
 
 # START Hack 2025
 
-[START Hack 2025](https://github.com/F4bbi/start_hack_2025) was my second hackathon, held in St. Gallen, Switzerland. It’s Europe’s most entrepreneurial 36-hour hackathon, and if you’ve never done an hackathon, I highly recommend trying it at least once. It’s truly an unforgettable experience.
+[START Hack 2025](https://github.com/F4bbi/start_hack_2025) was my second hackathon, held in St. Gallen, Switzerland. It was a 36-hour hackathon, and if you’ve never done an hackathon, I highly recommend trying it at least once, it’s truly an unforgettable experience.
 
 The challenge we chose focused on supporting the United Nations Convention to Combat Desertification (UNCCD) as part of their key initiative: the G20 Global Land Initiative. Our goal was to raise awareness about the severe environmental and socio-economic challenges faced by the Sahel region.
 
-### What We Built
+## What We Built
 
 We developed an interactive web app that:
 

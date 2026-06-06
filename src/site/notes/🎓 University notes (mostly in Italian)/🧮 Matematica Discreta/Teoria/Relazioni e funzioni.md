@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/relazioni-e-funzioni/","created":"2023-01-23T16:29:27.321+01:00","updated":"2023-01-23T16:29:27.321+01:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/relazioni-e-funzioni/","created":"2023-01-23T16:29:27.321+01:00","updated":"2026-06-06T10:21:54.903+02:00"}
 ---
 
 # Relazioni e funzioni
@@ -23,4 +23,6 @@ $x \ f \ y \Leftrightarrow (x,y) \in f$
 
 In questo caso, scriviamo $f: X \rightarrow Y$  e si dice che X si dice DOMINIO di $f$, $y$ codominio di $f$ 
 ### Osservazione
-Una funzione è una tripla $(X,Y,f)$ dove $X$ e $Y$ sono due insiemi, $f$ è una relazione tra $X$ e $Y$ (cioè $f \subset X$ x $Y$) e vale:$$\forall x \in X, \exists \space ! \space y \in Y \space t.c. \space x f y$$
+Una funzione è una tripla $(X,Y,f)$ dove $X$ e $Y$ sono due insiemi, $f$ è una relazione tra $X$ e $Y$ (cioè $f \subset X$ x $Y$) e vale:
+
+$$\forall x \in X, \exists \space ! \space y \in Y \space t.c. \space x f y$$

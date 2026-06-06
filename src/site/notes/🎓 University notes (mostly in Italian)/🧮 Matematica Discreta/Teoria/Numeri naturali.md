@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/numeri-naturali/","created":"2023-04-24T18:34:10.862+02:00","updated":"2023-04-24T18:34:10.862+02:00"}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/matematica-discreta/teoria/numeri-naturali/","created":"2023-04-24T18:34:10.862+02:00","updated":"2026-06-06T10:20:20.773+02:00"}
 ---
 
 # Numeri naturali
@@ -28,7 +28,8 @@ Sia $n \in A$. Osserviamo che $succ(n) \neq m \implies succ(n) \in A$. Grazie qu
 $\mathbb N$ e $\mathbb N \ \backslash \ \{0\}$ sono equipotenti, ovvero esiste una bigezione fa $\mathbb N$ in $\mathbb N \ \backslash \{0\}$.
 ### Dimostrazione
 Definiamo 
-$$f:\mathbb N \rightarrow \mathbb N \ \backslash \ \{0\}$$$$n \rightarrow succ(n)$$
+$$f:\mathbb N \rightarrow \mathbb N \ \backslash \ \{0\}$$
+$$n \rightarrow succ(n)$$
 Osserviamo che
 - $f(\mathbb N) = succ(\mathbb N) \subset \mathbb N \ \backslash \ \{0\}$
 - Prop. 2.9 $\implies f(\mathbb N) = \mathbb N \ \setminus \ \{0\}$
