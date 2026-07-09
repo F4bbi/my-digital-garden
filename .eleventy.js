@@ -24,7 +24,7 @@ normalizeFavicon(FAVICON_SOURCE, FAVICON_NORMALIZED);
 const tocPlugin = require("eleventy-plugin-nesting-toc");
 const { parse } = require("node-html-parser");
 const htmlMinifier = require("html-minifier-terser");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
+const { rssPlugin: pluginRss } = require("@11ty/eleventy-plugin-rss");
 
 const { headerToId, namedHeadingsFilter } = require("./src/helpers/utils");
 const {
