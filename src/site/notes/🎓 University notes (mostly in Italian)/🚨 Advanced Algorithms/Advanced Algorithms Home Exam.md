@@ -1,10 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/advanced-algorithms/advanced-algorithms-home-exam/","created":"2026-01-01T18:15:25.987+01:00","updated":"2026-06-06T10:42:57.257+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/advanced-algorithms/advanced-algorithms-home-exam/","created":"2026-01-01T18:15:25.987+01:00","updated":"2026-07-09T15:08:15.864+02:00","dg-note-properties":{}}
 ---
 
 # Advanced Algorithms Home Exam
 
-You can find the assignment description [here](/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%F0%9F%9A%A8%20Advanced%20Algorithms/advalgexam2025.pdf).
+Here's the assignment description.
+
+<iframe src="/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%F0%9F%9A%A8%20Advanced%20Algorithms/advalgexam2025.pdf" width="100%" height="900px" title="here" style="border:1px solid #ccc;"></iframe>
 
 ## Solution
 

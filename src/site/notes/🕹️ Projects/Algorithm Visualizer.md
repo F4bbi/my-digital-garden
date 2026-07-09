@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/projects/algorithm-visualizer/","created":"2025-03-29T18:10:19.222+01:00","updated":"2025-10-01T02:54:47.984+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/projects/algorithm-visualizer/","created":"2025-03-29T18:10:19.222+01:00","updated":"2026-07-09T11:19:07.940+02:00","dg-note-properties":{}}
 ---
 
 # Algorithm Visualizer
@@ -8,4 +8,4 @@
 
 In the end, I managed to animate only the Selection Sort, but I’m proud of what I accomplished, especially the animation of the indices on the array.
 
-This project was the starting point that eventually led to [[🕹️ Projects/Manim DSA\|Manim DSA]], the project I am most proud of.
+This project was the starting point that eventually led to [[🕹️ Projects/Manim DSA\|🕹️ Projects/Manim DSA]], the project I am most proud of.
