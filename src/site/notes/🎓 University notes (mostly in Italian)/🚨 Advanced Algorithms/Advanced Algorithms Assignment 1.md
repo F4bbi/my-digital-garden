@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/advanced-algorithms/advanced-algorithms-assignment-1/","created":"2025-11-10T20:18:37.604+01:00","updated":"2026-07-09T15:07:27.197+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/university-notes-mostly-in-italian/advanced-algorithms/advanced-algorithms-assignment-1/","created":"2025-11-10T20:18:37.604+01:00","updated":"2026-07-09T16:03:27.257+02:00","dg-note-properties":{}}
 ---
 
 # Advanced Algorithms Assignment 1
 
 Here's the assignment description.
 
-<iframe src="/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%F0%9F%9A%A8%20Advanced%20Algorithms/advalg-ass1-2025.pdf" width="100%" height="900px" title="advalg-ass1-2025.pdf" style="border:1px solid #ccc;"></iframe>
+<iframe src="/img/user/%F0%9F%8E%93%20University%20notes%20(mostly%20in%20Italian)/%F0%9F%9A%A8%20Advanced%20Algorithms/advalg-ass-2025.pdf" width="100%" height="900px" title="advalg-ass-2025.pdf" style="border:1px solid #ccc;"></iframe>
 
 ## Exercise 1.
 
