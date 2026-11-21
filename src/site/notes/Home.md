@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2024-09-06T12:00:39.098+02:00","updated":"2026-08-09T21:59:55.823+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"2024-09-06T12:00:39.098+02:00","updated":"2026-11-21T16:32:47.736+01:00","dg-note-properties":{}}
 ---
 
 ![Minì.jpg\|400](/img/user/Min%C3%AC.jpg)
@@ -13,9 +13,9 @@ I also recently returned from an Erasmus exchange at Chalmers University of Tech
 
 Currently, I'm doing research at [HiCrest](https://hicrest.unitn.it/) in Trento, focusing on BFS optimization for NVIDIA DGX Spark using Distributed Shared Memory and cooperative groups.
 
-Finally, from March to September 2027, I’ll be joining Qualcomm as an intern on the Adreno GPU team. 🥹
+Skateboarding, teaching and playing board games the rest of the time :)
 
-Anyway, it looks like you've stumbled upon my [digital garden](https://github.com/MaggieAppleton/digital-gardeners)! In short, it's an evolving and expanding set of notes, essays and ideas I try to keep about everything I do. If you are curious you may take a look at my [[🕹️ Projects/This website\|projects]] or at my [[🎓 University notes (mostly in Italian)/⚙️ Algoritmi e Strutture Dati/1. Risolvere le ricorrenze\|Algorithms and Data Structures notes]] (in italian 😔).
+Anyway, it looks like you've stumbled upon my [digital garden](https://github.com/MaggieAppleton/digital-gardeners)! In short, it's an evolving and expanding set of notes, essays and ideas I try to keep about everything I do. If you are curious you may take a look at my [[🕹️ Projects/This website\|projects]] or at my [[🎓 University notes (mostly in Italian)/⚙️ Algoritmi e Strutture Dati/1. Risolvere le ricorrenze\|Algorithms and Data Structures notes]] (in Italian :( ).
 
 ### Get in touch!
 
