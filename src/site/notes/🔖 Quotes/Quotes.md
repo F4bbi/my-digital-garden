@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/quotes/quotes/","created":"2025-04-06T15:48:58.993+02:00","updated":"2026-07-09T14:53:02.145+02:00","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/quotes/quotes/","created":"2025-04-06T15:48:58.993+02:00","updated":"2026-11-21T17:09:52.592+01:00","dg-note-properties":{}}
 ---
 
 # Quotes
 
-## Quote 1
+## Siate curiosi. Leggete molto. Provate cose nuove.
 
 Alberto Montresor, Professor of Algorithm and Data Structures at UniTn talking about the results of Reply Challenge 2023 at UniTn:
 
@@ -48,7 +48,7 @@ https://it.wikipedia.org/wiki/Aaron_Swartz
 https://www.youtube.com/watch?v=9vz06QO3UkQ&ab_channel=moviemaniacsDE
 https://libri.unimi.it/index.php/milanoup/catalog/book/100
 
-## Quote 2
+## Optimism it's the only positive bias among all
 
 From Roberto Verdone, Professor at UniBO talking about Soft Skills and Human Behaviour:
 
@@ -64,7 +64,7 @@ flowchart LR;
 
 The optimism bias makes people more successful, it's the only positive bias among all!
 
-## Quote 3
+## Cercate di vivere una vita bella, significativa ed intenzionale...
 
-[Cercate di vivere una vita bella, significativa ed intenzionale...](https://mrrip.notion.site/Mission-Filosofia-Valori-e-Temi-che-tratto-mr-rip-mission-6a6fea1ff8674ee2857a0a9ef3279926)
+https://mrrip.notion.site/Mission-Filosofia-Valori-e-Temi-che-tratto-mr-rip-mission-6a6fea1ff8674ee2857a0a9ef3279926
 

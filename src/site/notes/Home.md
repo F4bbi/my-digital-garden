@@ -15,7 +15,7 @@ Currently, I'm doing research at [HiCrest](https://hicrest.unitn.it/) in Trento,
 
 Skateboarding, teaching and playing board games the rest of the time :)
 
-Anyway, it looks like you've stumbled upon my [digital garden](https://github.com/MaggieAppleton/digital-gardeners)! In short, it's an evolving and expanding set of notes, essays and ideas I try to keep about everything I do. If you are curious you may take a look at my [[🕹️ Projects/This website\|projects]] or at my [[🎓 University notes (mostly in Italian)/⚙️ Algoritmi e Strutture Dati/1. Risolvere le ricorrenze\|Algorithms and Data Structures notes]] (in Italian :( ).
+Anyway, it looks like you've stumbled upon my [digital garden](https://github.com/MaggieAppleton/digital-gardeners)! In short, it's an evolving and expanding set of notes, essays and ideas I try to keep about everything I do. If you are curious you may take a look at my [[🕹️ Projects/This website\|projects]] or at my [[📚 University Archive/📝 Lecture Notes (mostly in Italian)/⚙️ Algoritmi e Strutture Dati/1. Risolvere le ricorrenze\|Algorithms and Data Structures notes]] (in Italian :( ).
 
 ### Get in touch!
 
